@@ -8,13 +8,13 @@
         <checked_out>false</checked_out>
         <cost>0</cost>
         <custom_cart/>
-        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan/>
         <delivery_plan_script/>
         <delivery_time>1970-01-03 00:00:00</delivery_time>
         <description/>
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
-        <flow_designer_flow/>
+        <flow_designer_flow display_value="Ping Services Integration Flow">c539ff5c479b2110a9b7057d826d43c4</flow_designer_flow>
         <fulfillment_automation_level>unspecified</fulfillment_automation_level>
         <group/>
         <hide_sp>false</hide_sp>
@@ -64,14 +64,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-06-04 13:15:34</sys_created_on>
         <sys_id>dcfaa31c475b2110a9b7057d826d43bc</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Enable PING functionality for Assignment Group</sys_name>
         <sys_package display_value="Ping Services" source="x_670518_ping_serv">82262b54475b2110a9b7057d826d436f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
         <sys_update_name>sc_cat_item_dcfaa31c475b2110a9b7057d826d43bc</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-06-04 14:11:44</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 20:15:17</sys_updated_on>
         <taxonomy_topic/>
         <template/>
         <template_manager_roles/>

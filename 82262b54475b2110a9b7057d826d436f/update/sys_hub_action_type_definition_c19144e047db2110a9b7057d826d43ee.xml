@@ -1,0 +1,4024 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>false</ih_action>
+        <internal_name>create_ping_service_rest_message</internal_name>
+        <label_cache>[{"name":"{{action.endpoint}}","label":"action➛endpoint","type":"action","ref":"","reference_display":"","base_type":"url","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.api_key}}","label":"action➛api_key","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.assignment_group}}","label":"action➛assignment_group","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.assignment_group_name}}","label":"action➛assignment_group_name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1719aff7-2ea6-4b22-9a91-61c4979019ce].credsysid}}","label":"step➛Create/Update credential record➛credSysId","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"ae82af2e-6207-495c-ab81-ef0bbdad9527"}},{"name":"{{step[f06c9b6f-6d4a-4654-8b03-f553ceca4299].restmessagesysid}}","label":"step➛Create/Update REST Message record➛restMessageSysId","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"9fad5349-b320-4bad-9c37-a0215eb2f37a"}},{"name":"{{step[f06c9b6f-6d4a-4654-8b03-f553ceca4299].error}}","label":"step➛Create/Update REST Message record➛error","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"93b4b456-9e3d-404d-b4f5-6fa5b51d394c"}}]</label_cache>
+        <master_snapshot>f7c98de847df2110a9b7057d826d43b7</master_snapshot>
+        <name>Create Ping Service REST Message &amp; Credentials</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 14:53:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c19144e047db2110a9b7057d826d43ee</sys_id>
+        <sys_mod_count>45</sys_mod_count>
+        <sys_name>Create Ping Service REST Message &amp; Credentials</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Ping Services" source="x_670518_ping_serv">82262b54475b2110a9b7057d826d436f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_c19144e047db2110a9b7057d826d43ee</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 20:38:14</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=c19144e047db2110a9b7057d826d43ee"/>
+    <sys_variable_value action="delete_multiple" query="document_key=c19144e047db2110a9b7057d826d43ee"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>c19144e047db2110a9b7057d826d43ee</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 14:56:44</sys_created_on>
+        <sys_id>5f5284e447db2110a9b7057d826d435e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 14:56:44</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">535284e447db2110a9b7057d826d4353</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>c19144e047db2110a9b7057d826d43ee</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 14:56:44</sys_created_on>
+        <sys_id>9b5284e447db2110a9b7057d826d435e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 14:56:44</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">5b5284e447db2110a9b7057d826d4357</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=c19144e047db2110a9b7057d826d43ee"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>credsysid</field>
+        <id>c19144e047db2110a9b7057d826d43ee</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 20:08:41</sys_created_on>
+        <sys_id>0dc94de847df2110a9b7057d826d4393</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 20:08:41</sys_updated_on>
+        <table>var__m_sys_hub_action_output_c19144e047db2110a9b7057d826d43ee</table>
+        <value>{{step[1719aff7-2ea6-4b22-9a91-61c4979019ce].credsysid}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>error</field>
+        <id>c19144e047db2110a9b7057d826d43ee</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 20:38:07</sys_created_on>
+        <sys_id>c880d12447136110a9b7057d826d4347</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 20:38:07</sys_updated_on>
+        <table>var__m_sys_hub_action_output_c19144e047db2110a9b7057d826d43ee</table>
+        <value>{{step[f06c9b6f-6d4a-4654-8b03-f553ceca4299].error}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>restmessagesysid</field>
+        <id>c19144e047db2110a9b7057d826d43ee</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 20:08:41</sys_created_on>
+        <sys_id>cdc94de847df2110a9b7057d826d4393</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 20:08:41</sys_updated_on>
+        <table>var__m_sys_hub_action_output_c19144e047db2110a9b7057d826d43ee</table>
+        <value>{{step[f06c9b6f-6d4a-4654-8b03-f553ceca4299].restmessagesysid}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>variable</field>
+        <id>c19144e047db2110a9b7057d826d43ee</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 20:07:16</sys_created_on>
+        <sys_id>987909e847df2110a9b7057d826d432a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 20:07:16</sys_updated_on>
+        <table>var__m_sys_hub_action_output_c19144e047db2110a9b7057d826d43ee</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>c19144e047db2110a9b7057d826d43ee</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 14:56:44</sys_created_on>
+        <sys_id>1b5284e447db2110a9b7057d826d435e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 14:56:44</sys_updated_on>
+        <table>var__m_sys_hub_action_output_c19144e047db2110a9b7057d826d43ee</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>c19144e047db2110a9b7057d826d43ee</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 14:56:44</sys_created_on>
+        <sys_id>575284e447db2110a9b7057d826d435e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 14:56:44</sys_updated_on>
+        <table>var__m_sys_hub_action_output_c19144e047db2110a9b7057d826d43ee</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=c19144e047db2110a9b7057d826d43ee^sys_idNOT IN68e5012847df2110a9b7057d826d43af,8b5284e447db2110a9b7057d826d433e"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Create Ping Service REST Message &amp; Credentials">c19144e047db2110a9b7057d826d43ee</action>
+        <cid>1719aff7-2ea6-4b22-9a91-61c4979019ce</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Create/Update credential record</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 19:51:44</sys_created_on>
+        <sys_id>68e5012847df2110a9b7057d826d43af</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 20:32:44</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=68e5012847df2110a9b7057d826d43af"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>68e5012847df2110a9b7057d826d43af</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 19:51:44</sys_created_on>
+        <sys_id>28e5012847df2110a9b7057d826d43bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 19:51:44</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>68e5012847df2110a9b7057d826d43af</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 19:51:44</sys_created_on>
+        <sys_id>ece5012847df2110a9b7057d826d43bc</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 20:32:44</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+  
+  if (!inputs.api_key) {
+    return;
+  }
+  
+  var credSysId = "";
+  if (checkForExistingCredentials()) {
+      updateExistingRecord();
+  } else {
+      createNewCredentialRecord();
+  }
+  
+  outputs.credSysId = credSysId;
+  
+  function createNewCredentialRecord() {
+    var cred = new GlideRecord("discovery_credentials");
+    cred.initialize();
+    cred.name = "Ping Integration - " + inputs.assignment_group_name;
+    cred.api_key = inputs.api_key;
+    credSysId = cred.sys_id;
+    cred.insert();
+  }
+
+  function updateExistingRecord() {
+    var cred = new GlideRecord("discovery_credentials");
+    cred.addQuery("name", "Ping Integration - " + inputs.assignment_group_name);
+    cred.query();
+    if (cred.next()) {
+      cred.api_key = inputs.api_key;
+      credSysId = cred.sys_id;
+      cred.update();
+    }
+  }
+  
+  function checkForExistingCredentials() {
+    var cred = new GlideRecord("discovery_credentials");
+    return cred.get("name", "Ping Integration - " + inputs.assignment_group_name);
+  }
+})(inputs, outputs);
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=68e5012847df2110a9b7057d826d43af"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>api_key</field>
+        <id>68e5012847df2110a9b7057d826d43af</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 19:51:44</sys_created_on>
+        <sys_id>28e5012847df2110a9b7057d826d43bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 19:51:44</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_68e5012847df2110a9b7057d826d43af</table>
+        <value>{{action.api_key}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>68e5012847df2110a9b7057d826d43af</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 19:51:44</sys_created_on>
+        <sys_id>ece5012847df2110a9b7057d826d43bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 19:51:44</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>assignment_group_name</field>
+        <id>68e5012847df2110a9b7057d826d43af</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 19:51:44</sys_created_on>
+        <sys_id>e8e5012847df2110a9b7057d826d43bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 19:51:44</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_68e5012847df2110a9b7057d826d43af</table>
+        <value>{{action.assignment_group_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>68e5012847df2110a9b7057d826d43af</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 19:51:44</sys_created_on>
+        <sys_id>a4e5012847df2110a9b7057d826d43bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 19:51:44</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_68e5012847df2110a9b7057d826d43af^id=68e5012847df2110a9b7057d826d43af"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=68e5012847df2110a9b7057d826d43af"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=68e5012847df2110a9b7057d826d43af"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=68e5012847df2110a9b7057d826d43af^sys_idNOT IN24e5012847df2110a9b7057d826d43b6,a0e5012847df2110a9b7057d826d43b3"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>assignment_group_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Create/Update credential record">68e5012847df2110a9b7057d826d43af</model>
+        <model_id>68e5012847df2110a9b7057d826d43af</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_68e5012847df2110a9b7057d826d43af</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 19:51:44</sys_created_on>
+        <sys_id>24e5012847df2110a9b7057d826d43b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 19:51:44</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>api_key</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Create/Update credential record">68e5012847df2110a9b7057d826d43af</model>
+        <model_id>68e5012847df2110a9b7057d826d43af</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_68e5012847df2110a9b7057d826d43af</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 19:51:44</sys_created_on>
+        <sys_id>a0e5012847df2110a9b7057d826d43b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 19:51:44</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=68e5012847df2110a9b7057d826d43af^sys_idNOT INb17809a847df2110a9b7057d826d43e3"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=ae82af2e-6207-495c-ab81-ef0bbdad9527</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>credsysid</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>credSysId</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Create/Update credential record">68e5012847df2110a9b7057d826d43af</model>
+        <model_id>68e5012847df2110a9b7057d826d43af</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_68e5012847df2110a9b7057d826d43af</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 20:03:01</sys_created_on>
+        <sys_id>b17809a847df2110a9b7057d826d43e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 20:03:01</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=68e5012847df2110a9b7057d826d43af"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_68e5012847df2110a9b7057d826d43af^sys_idNOT IN357809a847df2110a9b7057d826d43e6"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>credsysid</element>
+        <help/>
+        <hint/>
+        <label>credSysId</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_68e5012847df2110a9b7057d826d43af</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 20:03:01</sys_created_on>
+        <sys_id>357809a847df2110a9b7057d826d43e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Ping Services" source="x_670518_ping_serv">82262b54475b2110a9b7057d826d436f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 20:03:01</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Create Ping Service REST Message &amp; Credentials">c19144e047db2110a9b7057d826d43ee</action>
+        <cid>f06c9b6f-6d4a-4654-8b03-f553ceca4299</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Create/Update REST Message record</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 14:56:43</sys_created_on>
+        <sys_id>8b5284e447db2110a9b7057d826d433e</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 20:37:31</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=8b5284e447db2110a9b7057d826d433e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8b5284e447db2110a9b7057d826d433e</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 14:56:44</sys_created_on>
+        <sys_id>1b5284e447db2110a9b7057d826d434f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 14:56:44</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8b5284e447db2110a9b7057d826d433e</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 14:56:44</sys_created_on>
+        <sys_id>db5284e447db2110a9b7057d826d434f</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 20:37:31</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+  var restSysId = "";
+  
+  try {
+    
+    if (checkForExistingRecord()) {
+      updateExistingRecord();
+    } 
+    else {
+      createNewRestRecord();
+      createNewFunction();
+    }
+
+    outputs.restMessageSysId = restSysId;
+
+    function createNewRestRecord() {
+      var rm = new GlideRecord("sys_rest_message");
+      rm.initialize();
+      rm.name = "Ping Integration - " + inputs.assignment_group_name;
+      rm.rest_endpoint = inputs.endpoint;
+      restSysId = rm.sys_id;
+      rm.insert();
+    }
+
+    function createNewFunction() {
+      var rmFn = new GlideRecord("sys_rest_message_fn");
+      rmFn.initialize();
+      rmFn.function_name = "POST";
+      rmFn.http_method = "post";
+      rmFn.rest_endpoint = inputs.endpoint;
+      rmFn.rest_message = restSysId;
+      rmFn.insert();
+    }
+
+    function updateExistingRecord() {
+      var rm = new GlideRecord("sys_rest_message");
+      rm.addQuery("name", "Ping Integration - " + inputs.assignment_group_name);
+      if (rm.next()){
+        rm.rest_endpoint = inputs.endpoint;
+        restSysId = rm.sys_id;
+        rm.update();
+      }
+    }
+
+    function updateExistingMethod() {
+      var rmFn = new GlideRecord("sys_rest_message_fn");
+      rmFn.addQuery("rest_message", restSysId);
+      rmFn.addQuery("function_name", "POST");
+      rmFn.query();
+      if (rmFn.next()) {
+        rmFn.rest_endpoint = inputs.endpoint;
+        rmFn.update();
+      }
+    }
+
+    function checkForExistingRecord() {
+      var rm = new GlideRecord("sys_rest_message");
+      return rm.get("name", "Ping Integration - " + inputs.assignment_group_name);
+    }
+  } catch (error) {
+    outputs.error = error;
+  }  
+  
+  
+})(inputs, outputs);
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=8b5284e447db2110a9b7057d826d433e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>api_key</field>
+        <id>8b5284e447db2110a9b7057d826d433e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 14:56:44</sys_created_on>
+        <sys_id>975284e447db2110a9b7057d826d4350</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 14:56:44</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_8b5284e447db2110a9b7057d826d433e</table>
+        <value>{{action.api_key}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>8b5284e447db2110a9b7057d826d433e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 14:56:44</sys_created_on>
+        <sys_id>d35284e447db2110a9b7057d826d434f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 14:56:44</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>assignment_group_name</field>
+        <id>8b5284e447db2110a9b7057d826d433e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 15:03:53</sys_created_on>
+        <sys_id>4004cc2847db2110a9b7057d826d435b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 15:03:53</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_8b5284e447db2110a9b7057d826d433e</table>
+        <value>{{action.assignment_group_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>endpoint</field>
+        <id>8b5284e447db2110a9b7057d826d433e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 14:56:44</sys_created_on>
+        <sys_id>5b5284e447db2110a9b7057d826d4350</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 14:56:44</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_8b5284e447db2110a9b7057d826d433e</table>
+        <value>{{action.endpoint}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>8b5284e447db2110a9b7057d826d433e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 14:56:44</sys_created_on>
+        <sys_id>975284e447db2110a9b7057d826d434f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 14:56:44</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_8b5284e447db2110a9b7057d826d433e^id=8b5284e447db2110a9b7057d826d433e"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=8b5284e447db2110a9b7057d826d433e"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=8b5284e447db2110a9b7057d826d433e"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=8b5284e447db2110a9b7057d826d433e^sys_idNOT IN835284e447db2110a9b7057d826d4346,8c04cc2847db2110a9b7057d826d4353"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=url,uiTypeLabel=URL</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>endpoint</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="URL">url</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>1024</max_length>
+        <model display_value="Create/Update REST Message record">8b5284e447db2110a9b7057d826d433e</model>
+        <model_id>8b5284e447db2110a9b7057d826d433e</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_8b5284e447db2110a9b7057d826d433e</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 14:56:43</sys_created_on>
+        <sys_id>835284e447db2110a9b7057d826d4346</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 14:56:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>assignment_group_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Create/Update REST Message record">8b5284e447db2110a9b7057d826d433e</model>
+        <model_id>8b5284e447db2110a9b7057d826d433e</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_8b5284e447db2110a9b7057d826d433e</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 15:03:53</sys_created_on>
+        <sys_id>8c04cc2847db2110a9b7057d826d4353</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 19:51:44</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=8b5284e447db2110a9b7057d826d433e^sys_idNOT IN1b50112447136110a9b7057d826d435c,6b98c9a847df2110a9b7057d826d434d"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=93b4b456-9e3d-404d-b4f5-6fa5b51d394c</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>error</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>error</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Create/Update REST Message record">8b5284e447db2110a9b7057d826d433e</model>
+        <model_id>8b5284e447db2110a9b7057d826d433e</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_8b5284e447db2110a9b7057d826d433e</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 20:37:31</sys_created_on>
+        <sys_id>1b50112447136110a9b7057d826d435c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 20:37:31</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=9fad5349-b320-4bad-9c37-a0215eb2f37a</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>restmessagesysid</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>restMessageSysId</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Create/Update REST Message record">8b5284e447db2110a9b7057d826d433e</model>
+        <model_id>8b5284e447db2110a9b7057d826d433e</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_8b5284e447db2110a9b7057d826d433e</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 20:03:41</sys_created_on>
+        <sys_id>6b98c9a847df2110a9b7057d826d434d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 20:03:41</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=8b5284e447db2110a9b7057d826d433e"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_8b5284e447db2110a9b7057d826d433e^sys_idNOT IN1b50112447136110a9b7057d826d435f,eb98c9a847df2110a9b7057d826d4350"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>error</element>
+        <help/>
+        <hint/>
+        <label>error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_8b5284e447db2110a9b7057d826d433e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 20:37:31</sys_created_on>
+        <sys_id>1b50112447136110a9b7057d826d435f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Ping Services" source="x_670518_ping_serv">82262b54475b2110a9b7057d826d436f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 20:37:31</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>restmessagesysid</element>
+        <help/>
+        <hint/>
+        <label>restMessageSysId</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_8b5284e447db2110a9b7057d826d433e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 20:03:41</sys_created_on>
+        <sys_id>eb98c9a847df2110a9b7057d826d4350</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Ping Services" source="x_670518_ping_serv">82262b54475b2110a9b7057d826d436f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 20:03:41</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=c19144e047db2110a9b7057d826d43ee^sys_idNOT IN00e10c6447db2110a9b7057d826d4362,22c208e447db2110a9b7057d826d4389,40e14ca447db2110a9b7057d826d43e4"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=url,uiTypeLabel=URL,uiUniqueId=9bc124ad-ab4a-45e5-a7dd-06eef7f05410</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>endpoint</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="URL">url</internal_type>
+        <label>endpoint</label>
+        <mandatory>true</mandatory>
+        <max_length>1024</max_length>
+        <model display_value="Create Ping Service REST Message &amp; Credentials">c19144e047db2110a9b7057d826d43ee</model>
+        <model_id>c19144e047db2110a9b7057d826d43ee</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_c19144e047db2110a9b7057d826d43ee</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 14:54:36</sys_created_on>
+        <sys_id>00e10c6447db2110a9b7057d826d4362</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 14:54:36</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=00e10c6447db2110a9b7057d826d4362"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=ff1247d7-b2e7-4330-9c8d-c6f87d952eea</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>assignment_group_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>assignment_group_name</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Create Ping Service REST Message &amp; Credentials">c19144e047db2110a9b7057d826d43ee</model>
+        <model_id>c19144e047db2110a9b7057d826d43ee</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_c19144e047db2110a9b7057d826d43ee</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 14:58:35</sys_created_on>
+        <sys_id>22c208e447db2110a9b7057d826d4389</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 14:58:35</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=22c208e447db2110a9b7057d826d4389"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=b9857f32-7024-482b-a276-4f69f3ea04ef</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>api_key</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>api_key</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Create Ping Service REST Message &amp; Credentials">c19144e047db2110a9b7057d826d43ee</model>
+        <model_id>c19144e047db2110a9b7057d826d43ee</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_c19144e047db2110a9b7057d826d43ee</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 14:54:36</sys_created_on>
+        <sys_id>40e14ca447db2110a9b7057d826d43e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 14:54:36</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=40e14ca447db2110a9b7057d826d43e4"/>
+    <sys_hub_action_output action="delete_multiple" query="model=c19144e047db2110a9b7057d826d43ee^sys_idNOT IN4c80d12447136110a9b7057d826d4339,535284e447db2110a9b7057d826d4353,5b5284e447db2110a9b7057d826d4357,b8c94de847df2110a9b7057d826d4379,f0c94de847df2110a9b7057d826d437e"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=236d092a-3cdc-41a5-9d03-9d6d64ce4cbc</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>error</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>error</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Create Ping Service REST Message &amp; Credentials">c19144e047db2110a9b7057d826d43ee</model>
+        <model_id>c19144e047db2110a9b7057d826d43ee</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_c19144e047db2110a9b7057d826d43ee</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 20:38:07</sys_created_on>
+        <sys_id>4c80d12447136110a9b7057d826d4339</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 20:38:07</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=4c80d12447136110a9b7057d826d4339"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=4c80d12447136110a9b7057d826d4339"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=7d072e5c-fc29-4e49-abd1-188315e298b1</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Create Ping Service REST Message &amp; Credentials">c19144e047db2110a9b7057d826d43ee</model>
+        <model_id>c19144e047db2110a9b7057d826d43ee</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_c19144e047db2110a9b7057d826d43ee</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 14:56:44</sys_created_on>
+        <sys_id>535284e447db2110a9b7057d826d4353</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 20:38:07</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=535284e447db2110a9b7057d826d4353"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=535284e447db2110a9b7057d826d4353"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=4597b85d-8e5c-42a5-9f6e-77bc971280c8,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Create Ping Service REST Message &amp; Credentials">c19144e047db2110a9b7057d826d43ee</model>
+        <model_id>c19144e047db2110a9b7057d826d43ee</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_c19144e047db2110a9b7057d826d43ee</name>
+        <next_element/>
+        <order>5</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 14:56:44</sys_created_on>
+        <sys_id>5b5284e447db2110a9b7057d826d4357</sys_id>
+        <sys_mod_count>51</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 20:38:12</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=5b5284e447db2110a9b7057d826d4357"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=5b5284e447db2110a9b7057d826d4357"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=077df151-aba5-4eb7-ae76-52ceea2f007d</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>restmessagesysid</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>restMessageSysId</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Create Ping Service REST Message &amp; Credentials">c19144e047db2110a9b7057d826d43ee</model>
+        <model_id>c19144e047db2110a9b7057d826d43ee</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_c19144e047db2110a9b7057d826d43ee</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 20:08:41</sys_created_on>
+        <sys_id>b8c94de847df2110a9b7057d826d4379</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 20:08:41</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=b8c94de847df2110a9b7057d826d4379"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b8c94de847df2110a9b7057d826d4379"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=74ab2a79-d9cc-4c36-8509-eb8a6e02db71</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>credsysid</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>credSysId</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Create Ping Service REST Message &amp; Credentials">c19144e047db2110a9b7057d826d43ee</model>
+        <model_id>c19144e047db2110a9b7057d826d43ee</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_c19144e047db2110a9b7057d826d43ee</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 20:08:41</sys_created_on>
+        <sys_id>f0c94de847df2110a9b7057d826d437e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 20:08:41</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=f0c94de847df2110a9b7057d826d437e"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f0c94de847df2110a9b7057d826d437e"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=c19144e047db2110a9b7057d826d43ee"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=c19144e047db2110a9b7057d826d43ee^sys_idNOT INd4e14ca447db2110a9b7057d826d43ea"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Create Ping Service REST Message &amp; Credentials">c19144e047db2110a9b7057d826d43ee</action_type_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 14:54:37</sys_created_on>
+        <sys_id>d4e14ca447db2110a9b7057d826d43ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 14:54:37</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=d4e14ca447db2110a9b7057d826d43ea"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_c19144e047db2110a9b7057d826d43ee^sys_idNOT IN5ce14ca447db2110a9b7057d826d43e6,6ec208e447db2110a9b7057d826d438b,84e14ca447db2110a9b7057d826d43e3"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>api_key</element>
+        <help/>
+        <hint/>
+        <label>api_key</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_c19144e047db2110a9b7057d826d43ee</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 14:54:37</sys_created_on>
+        <sys_id>5ce14ca447db2110a9b7057d826d43e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Ping Services" source="x_670518_ping_serv">82262b54475b2110a9b7057d826d436f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 14:54:37</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>assignment_group_name</element>
+        <help/>
+        <hint/>
+        <label>assignment_group_name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_c19144e047db2110a9b7057d826d43ee</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 14:58:35</sys_created_on>
+        <sys_id>6ec208e447db2110a9b7057d826d438b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Ping Services" source="x_670518_ping_serv">82262b54475b2110a9b7057d826d436f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 14:58:35</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>endpoint</element>
+        <help/>
+        <hint/>
+        <label>endpoint</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_c19144e047db2110a9b7057d826d43ee</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 14:54:36</sys_created_on>
+        <sys_id>84e14ca447db2110a9b7057d826d43e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Ping Services" source="x_670518_ping_serv">82262b54475b2110a9b7057d826d436f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 14:54:36</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_c19144e047db2110a9b7057d826d43ee"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_c19144e047db2110a9b7057d826d43ee^sys_idNOT IN05c94de847df2110a9b7057d826d4381,34c94de847df2110a9b7057d826d437d,4080d12447136110a9b7057d826d433d,935284e447db2110a9b7057d826d435c,9f5284e447db2110a9b7057d826d4356"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>credsysid</element>
+        <help/>
+        <hint/>
+        <label>credSysId</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_c19144e047db2110a9b7057d826d43ee</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 20:08:41</sys_created_on>
+        <sys_id>05c94de847df2110a9b7057d826d4381</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Ping Services" source="x_670518_ping_serv">82262b54475b2110a9b7057d826d436f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 20:08:41</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>restmessagesysid</element>
+        <help/>
+        <hint/>
+        <label>restMessageSysId</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_c19144e047db2110a9b7057d826d43ee</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 20:08:41</sys_created_on>
+        <sys_id>34c94de847df2110a9b7057d826d437d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Ping Services" source="x_670518_ping_serv">82262b54475b2110a9b7057d826d436f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 20:08:41</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>error</element>
+        <help/>
+        <hint/>
+        <label>error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_c19144e047db2110a9b7057d826d43ee</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 20:38:07</sys_created_on>
+        <sys_id>4080d12447136110a9b7057d826d433d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Ping Services" source="x_670518_ping_serv">82262b54475b2110a9b7057d826d436f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 20:38:07</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_c19144e047db2110a9b7057d826d43ee</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 14:56:44</sys_created_on>
+        <sys_id>935284e447db2110a9b7057d826d435c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Ping Services" source="x_670518_ping_serv">82262b54475b2110a9b7057d826d436f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 14:56:44</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_c19144e047db2110a9b7057d826d43ee</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 14:56:44</sys_created_on>
+        <sys_id>9f5284e447db2110a9b7057d826d4356</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Ping Services" source="x_670518_ping_serv">82262b54475b2110a9b7057d826d436f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 14:56:44</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_c19144e047db2110a9b7057d826d43ee"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=c19144e047db2110a9b7057d826d43ee^sys_idNOT IN90d9cde847df2110a9b7057d826d43b2"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Create Ping Service REST Message &amp; Credentials">c19144e047db2110a9b7057d826d43ee</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"90d9cde847df2110a9b7057d826d43b2","name":"plan","plan_signature":null}}</plan>
+        <snapshot>bd80152447136110a9b7057d826d43e1</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 20:08:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>90d9cde847df2110a9b7057d826d43b2</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 20:38:15</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>create_ping_service_rest_message</internal_name>
+        <label_cache>[{"name":"{{action.endpoint}}","label":"action➛endpoint","type":"action","ref":"","reference_display":"","base_type":"url","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.api_key}}","label":"action➛api_key","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.assignment_group}}","label":"action➛assignment_group","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.assignment_group_name}}","label":"action➛assignment_group_name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1719aff7-2ea6-4b22-9a91-61c4979019ce].credsysid}}","label":"step➛Create/Update credential record➛credSysId","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"ae82af2e-6207-495c-ab81-ef0bbdad9527"}},{"name":"{{step[f06c9b6f-6d4a-4654-8b03-f553ceca4299].restmessagesysid}}","label":"step➛Create/Update REST Message record➛restMessageSysId","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"9fad5349-b320-4bad-9c37-a0215eb2f37a"}},{"name":"{{step[f06c9b6f-6d4a-4654-8b03-f553ceca4299].error}}","label":"step➛Create/Update REST Message record➛error","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"93b4b456-9e3d-404d-b4f5-6fa5b51d394c"}}]</label_cache>
+        <master>true</master>
+        <name>Create Ping Service REST Message &amp; Credentials</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Create Ping Service REST Message &amp; Credentials">c19144e047db2110a9b7057d826d43ee</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 20:08:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f7c98de847df2110a9b7057d826d43b7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 20:38:13</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=f7c98de847df2110a9b7057d826d43b7"/>
+    <sys_variable_value action="delete_multiple" query="document_key=f7c98de847df2110a9b7057d826d43b7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>f7c98de847df2110a9b7057d826d43b7</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 20:08:54</sys_created_on>
+        <sys_id>4cd9cde847df2110a9b7057d826d4347</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 20:08:54</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">40d9cde847df2110a9b7057d826d4316</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>f7c98de847df2110a9b7057d826d43b7</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 20:08:54</sys_created_on>
+        <sys_id>88d9cde847df2110a9b7057d826d4347</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 20:08:54</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">40d9cde847df2110a9b7057d826d431a</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=f7c98de847df2110a9b7057d826d43b7"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>credsysid</field>
+        <id>f7c98de847df2110a9b7057d826d43b7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 20:08:54</sys_created_on>
+        <sys_id>44d9cde847df2110a9b7057d826d4347</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 20:08:54</sys_updated_on>
+        <table>var__m_sys_hub_action_output_f7c98de847df2110a9b7057d826d43b7</table>
+        <value>{{step[1719aff7-2ea6-4b22-9a91-61c4979019ce].credsysid}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>error</field>
+        <id>f7c98de847df2110a9b7057d826d43b7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 20:38:14</sys_created_on>
+        <sys_id>3180152447136110a9b7057d826d43df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 20:38:14</sys_updated_on>
+        <table>var__m_sys_hub_action_output_f7c98de847df2110a9b7057d826d43b7</table>
+        <value>{{step[f06c9b6f-6d4a-4654-8b03-f553ceca4299].error}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>restmessagesysid</field>
+        <id>f7c98de847df2110a9b7057d826d43b7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 20:08:54</sys_created_on>
+        <sys_id>08d9cde847df2110a9b7057d826d4347</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 20:08:54</sys_updated_on>
+        <table>var__m_sys_hub_action_output_f7c98de847df2110a9b7057d826d43b7</table>
+        <value>{{step[f06c9b6f-6d4a-4654-8b03-f553ceca4299].restmessagesysid}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>f7c98de847df2110a9b7057d826d43b7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 20:08:54</sys_created_on>
+        <sys_id>80d9cde847df2110a9b7057d826d4347</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 20:08:54</sys_updated_on>
+        <table>var__m_sys_hub_action_output_f7c98de847df2110a9b7057d826d43b7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>f7c98de847df2110a9b7057d826d43b7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 20:08:54</sys_created_on>
+        <sys_id>ccd9cde847df2110a9b7057d826d4346</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 20:08:54</sys_updated_on>
+        <table>var__m_sys_hub_action_output_f7c98de847df2110a9b7057d826d43b7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=f7c98de847df2110a9b7057d826d43b7^sys_idNOT IN37c98de847df2110a9b7057d826d43c9,bfc98de847df2110a9b7057d826d43de"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Create Ping Service REST Message &amp; Credentials">f7c98de847df2110a9b7057d826d43b7</action>
+        <cid>f06c9b6f-6d4a-4654-8b03-f553ceca4299</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Create/Update REST Message record</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 20:08:53</sys_created_on>
+        <sys_id>37c98de847df2110a9b7057d826d43c9</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 20:38:14</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=37c98de847df2110a9b7057d826d43c9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>37c98de847df2110a9b7057d826d43c9</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 20:08:53</sys_created_on>
+        <sys_id>3bc98de847df2110a9b7057d826d43db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 20:08:53</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>37c98de847df2110a9b7057d826d43c9</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 20:08:53</sys_created_on>
+        <sys_id>fbc98de847df2110a9b7057d826d43db</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 20:38:14</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+  var restSysId = "";
+  
+  try {
+    
+    if (checkForExistingRecord()) {
+      updateExistingRecord();
+    } 
+    else {
+      createNewRestRecord();
+      createNewFunction();
+    }
+
+    outputs.restMessageSysId = restSysId;
+
+    function createNewRestRecord() {
+      var rm = new GlideRecord("sys_rest_message");
+      rm.initialize();
+      rm.name = "Ping Integration - " + inputs.assignment_group_name;
+      rm.rest_endpoint = inputs.endpoint;
+      restSysId = rm.sys_id;
+      rm.insert();
+    }
+
+    function createNewFunction() {
+      var rmFn = new GlideRecord("sys_rest_message_fn");
+      rmFn.initialize();
+      rmFn.function_name = "POST";
+      rmFn.http_method = "post";
+      rmFn.rest_endpoint = inputs.endpoint;
+      rmFn.rest_message = restSysId;
+      rmFn.insert();
+    }
+
+    function updateExistingRecord() {
+      var rm = new GlideRecord("sys_rest_message");
+      rm.addQuery("name", "Ping Integration - " + inputs.assignment_group_name);
+      if (rm.next()){
+        rm.rest_endpoint = inputs.endpoint;
+        restSysId = rm.sys_id;
+        rm.update();
+      }
+    }
+
+    function updateExistingMethod() {
+      var rmFn = new GlideRecord("sys_rest_message_fn");
+      rmFn.addQuery("rest_message", restSysId);
+      rmFn.addQuery("function_name", "POST");
+      rmFn.query();
+      if (rmFn.next()) {
+        rmFn.rest_endpoint = inputs.endpoint;
+        rmFn.update();
+      }
+    }
+
+    function checkForExistingRecord() {
+      var rm = new GlideRecord("sys_rest_message");
+      return rm.get("name", "Ping Integration - " + inputs.assignment_group_name);
+    }
+  } catch (error) {
+    outputs.error = error;
+  }  
+  
+  
+})(inputs, outputs);
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=37c98de847df2110a9b7057d826d43c9"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>37c98de847df2110a9b7057d826d43c9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 20:08:53</sys_created_on>
+        <sys_id>f3c98de847df2110a9b7057d826d43db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 20:08:53</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>assignment_group_name</field>
+        <id>37c98de847df2110a9b7057d826d43c9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 20:08:53</sys_created_on>
+        <sys_id>f7c98de847df2110a9b7057d826d43dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 20:08:53</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_37c98de847df2110a9b7057d826d43c9</table>
+        <value>{{action.assignment_group_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>endpoint</field>
+        <id>37c98de847df2110a9b7057d826d43c9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 20:08:53</sys_created_on>
+        <sys_id>37c98de847df2110a9b7057d826d43dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 20:08:53</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_37c98de847df2110a9b7057d826d43c9</table>
+        <value>{{action.endpoint}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>37c98de847df2110a9b7057d826d43c9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 20:08:53</sys_created_on>
+        <sys_id>b7c98de847df2110a9b7057d826d43db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 20:08:53</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_37c98de847df2110a9b7057d826d43c9^id=37c98de847df2110a9b7057d826d43c9"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=37c98de847df2110a9b7057d826d43c9"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=37c98de847df2110a9b7057d826d43c9"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=37c98de847df2110a9b7057d826d43c9^sys_idNOT IN3bc98de847df2110a9b7057d826d43cc,3bc98de847df2110a9b7057d826d43d0"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=url,uiTypeLabel=URL</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>endpoint</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="URL">url</internal_type>
+        <label>endpoint</label>
+        <mandatory>true</mandatory>
+        <max_length>1024</max_length>
+        <model display_value="Create/Update REST Message record">37c98de847df2110a9b7057d826d43c9</model>
+        <model_id>37c98de847df2110a9b7057d826d43c9</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_37c98de847df2110a9b7057d826d43c9</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 20:08:53</sys_created_on>
+        <sys_id>3bc98de847df2110a9b7057d826d43cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 20:08:53</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>assignment_group_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>assignment_group_name</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Create/Update REST Message record">37c98de847df2110a9b7057d826d43c9</model>
+        <model_id>37c98de847df2110a9b7057d826d43c9</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_37c98de847df2110a9b7057d826d43c9</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 20:08:53</sys_created_on>
+        <sys_id>3bc98de847df2110a9b7057d826d43d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 20:08:53</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=37c98de847df2110a9b7057d826d43c9^sys_idNOT INa580152447136110a9b7057d826d43b9,f7c98de847df2110a9b7057d826d43d4"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=93b4b456-9e3d-404d-b4f5-6fa5b51d394c</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>error</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>error</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Create/Update REST Message record">37c98de847df2110a9b7057d826d43c9</model>
+        <model_id>37c98de847df2110a9b7057d826d43c9</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_37c98de847df2110a9b7057d826d43c9</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 20:38:13</sys_created_on>
+        <sys_id>a580152447136110a9b7057d826d43b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 20:38:13</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=9fad5349-b320-4bad-9c37-a0215eb2f37a</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>restmessagesysid</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>restMessageSysId</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Create/Update REST Message record">37c98de847df2110a9b7057d826d43c9</model>
+        <model_id>37c98de847df2110a9b7057d826d43c9</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_37c98de847df2110a9b7057d826d43c9</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 20:08:53</sys_created_on>
+        <sys_id>f7c98de847df2110a9b7057d826d43d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 20:08:53</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=37c98de847df2110a9b7057d826d43c9"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_37c98de847df2110a9b7057d826d43c9^sys_idNOT IN2180152447136110a9b7057d826d43bc,3bc98de847df2110a9b7057d826d43d7"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>error</element>
+        <help/>
+        <hint/>
+        <label>error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_37c98de847df2110a9b7057d826d43c9</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 20:38:14</sys_created_on>
+        <sys_id>2180152447136110a9b7057d826d43bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Ping Services" source="x_670518_ping_serv">82262b54475b2110a9b7057d826d436f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 20:38:14</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>restmessagesysid</element>
+        <help/>
+        <hint/>
+        <label>restMessageSysId</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_37c98de847df2110a9b7057d826d43c9</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 20:08:53</sys_created_on>
+        <sys_id>3bc98de847df2110a9b7057d826d43d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Ping Services" source="x_670518_ping_serv">82262b54475b2110a9b7057d826d436f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 20:08:53</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Create Ping Service REST Message &amp; Credentials">f7c98de847df2110a9b7057d826d43b7</action>
+        <cid>1719aff7-2ea6-4b22-9a91-61c4979019ce</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Create/Update credential record</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 20:08:53</sys_created_on>
+        <sys_id>bfc98de847df2110a9b7057d826d43de</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 20:32:50</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=bfc98de847df2110a9b7057d826d43de"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>bfc98de847df2110a9b7057d826d43de</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 20:08:53</sys_created_on>
+        <sys_id>77c98de847df2110a9b7057d826d43f1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 20:32:50</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+  
+  if (!inputs.api_key) {
+    return;
+  }
+  
+  var credSysId = "";
+  if (checkForExistingCredentials()) {
+      updateExistingRecord();
+  } else {
+      createNewCredentialRecord();
+  }
+  
+  outputs.credSysId = credSysId;
+  
+  function createNewCredentialRecord() {
+    var cred = new GlideRecord("discovery_credentials");
+    cred.initialize();
+    cred.name = "Ping Integration - " + inputs.assignment_group_name;
+    cred.api_key = inputs.api_key;
+    credSysId = cred.sys_id;
+    cred.insert();
+  }
+
+  function updateExistingRecord() {
+    var cred = new GlideRecord("discovery_credentials");
+    cred.addQuery("name", "Ping Integration - " + inputs.assignment_group_name);
+    cred.query();
+    if (cred.next()) {
+      cred.api_key = inputs.api_key;
+      credSysId = cred.sys_id;
+      cred.update();
+    }
+  }
+  
+  function checkForExistingCredentials() {
+    var cred = new GlideRecord("discovery_credentials");
+    return cred.get("name", "Ping Integration - " + inputs.assignment_group_name);
+  }
+})(inputs, outputs);
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>bfc98de847df2110a9b7057d826d43de</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 20:08:53</sys_created_on>
+        <sys_id>b3c98de847df2110a9b7057d826d43f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 20:08:53</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=bfc98de847df2110a9b7057d826d43de"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>api_key</field>
+        <id>bfc98de847df2110a9b7057d826d43de</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 20:08:53</sys_created_on>
+        <sys_id>bfc98de847df2110a9b7057d826d43f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 20:08:53</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_bfc98de847df2110a9b7057d826d43de</table>
+        <value>{{action.api_key}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>bfc98de847df2110a9b7057d826d43de</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 20:08:53</sys_created_on>
+        <sys_id>7fc98de847df2110a9b7057d826d43f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 20:08:53</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>assignment_group_name</field>
+        <id>bfc98de847df2110a9b7057d826d43de</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 20:08:53</sys_created_on>
+        <sys_id>73c98de847df2110a9b7057d826d43f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 20:08:53</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_bfc98de847df2110a9b7057d826d43de</table>
+        <value>{{action.assignment_group_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>bfc98de847df2110a9b7057d826d43de</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 20:08:53</sys_created_on>
+        <sys_id>33c98de847df2110a9b7057d826d43f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 20:08:53</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_bfc98de847df2110a9b7057d826d43de^id=bfc98de847df2110a9b7057d826d43de"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=bfc98de847df2110a9b7057d826d43de"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=bfc98de847df2110a9b7057d826d43de"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=bfc98de847df2110a9b7057d826d43de^sys_idNOT INb3c98de847df2110a9b7057d826d43e2,b3c98de847df2110a9b7057d826d43e6"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>api_key</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>api_key</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Create/Update credential record">bfc98de847df2110a9b7057d826d43de</model>
+        <model_id>bfc98de847df2110a9b7057d826d43de</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_bfc98de847df2110a9b7057d826d43de</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 20:08:53</sys_created_on>
+        <sys_id>b3c98de847df2110a9b7057d826d43e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 20:08:53</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>assignment_group_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>assignment_group_name</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Create/Update credential record">bfc98de847df2110a9b7057d826d43de</model>
+        <model_id>bfc98de847df2110a9b7057d826d43de</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_bfc98de847df2110a9b7057d826d43de</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 20:08:53</sys_created_on>
+        <sys_id>b3c98de847df2110a9b7057d826d43e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 20:08:53</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=bfc98de847df2110a9b7057d826d43de^sys_idNOT IN73c98de847df2110a9b7057d826d43ea"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=ae82af2e-6207-495c-ab81-ef0bbdad9527</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>credsysid</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>credSysId</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Create/Update credential record">bfc98de847df2110a9b7057d826d43de</model>
+        <model_id>bfc98de847df2110a9b7057d826d43de</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_bfc98de847df2110a9b7057d826d43de</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 20:08:53</sys_created_on>
+        <sys_id>73c98de847df2110a9b7057d826d43ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 20:08:53</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=bfc98de847df2110a9b7057d826d43de"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_bfc98de847df2110a9b7057d826d43de^sys_idNOT INb3c98de847df2110a9b7057d826d43ed"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>credsysid</element>
+        <help/>
+        <hint/>
+        <label>credSysId</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_bfc98de847df2110a9b7057d826d43de</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 20:08:53</sys_created_on>
+        <sys_id>b3c98de847df2110a9b7057d826d43ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Ping Services" source="x_670518_ping_serv">82262b54475b2110a9b7057d826d436f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 20:08:53</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=f7c98de847df2110a9b7057d826d43b7^sys_idNOT IN73c98de847df2110a9b7057d826d43c0,77c98de847df2110a9b7057d826d43bb,ffc98de847df2110a9b7057d826d43c3"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=b9857f32-7024-482b-a276-4f69f3ea04ef</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>api_key</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>api_key</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Create Ping Service REST Message &amp; Credentials">f7c98de847df2110a9b7057d826d43b7</model>
+        <model_id>f7c98de847df2110a9b7057d826d43b7</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_f7c98de847df2110a9b7057d826d43b7</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 20:08:53</sys_created_on>
+        <sys_id>73c98de847df2110a9b7057d826d43c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 20:08:53</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=73c98de847df2110a9b7057d826d43c0"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=url,uiTypeLabel=URL,uiUniqueId=9bc124ad-ab4a-45e5-a7dd-06eef7f05410</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>endpoint</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="URL">url</internal_type>
+        <label>endpoint</label>
+        <mandatory>true</mandatory>
+        <max_length>1024</max_length>
+        <model display_value="Create Ping Service REST Message &amp; Credentials">f7c98de847df2110a9b7057d826d43b7</model>
+        <model_id>f7c98de847df2110a9b7057d826d43b7</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_f7c98de847df2110a9b7057d826d43b7</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 20:08:53</sys_created_on>
+        <sys_id>77c98de847df2110a9b7057d826d43bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 20:08:53</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=77c98de847df2110a9b7057d826d43bb"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=ff1247d7-b2e7-4330-9c8d-c6f87d952eea</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>assignment_group_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>assignment_group_name</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Create Ping Service REST Message &amp; Credentials">f7c98de847df2110a9b7057d826d43b7</model>
+        <model_id>f7c98de847df2110a9b7057d826d43b7</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_f7c98de847df2110a9b7057d826d43b7</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 20:08:53</sys_created_on>
+        <sys_id>ffc98de847df2110a9b7057d826d43c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 20:08:53</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ffc98de847df2110a9b7057d826d43c3"/>
+    <sys_hub_action_output action="delete_multiple" query="model=f7c98de847df2110a9b7057d826d43b7^sys_idNOT IN40d9cde847df2110a9b7057d826d4316,40d9cde847df2110a9b7057d826d431a,7fc98de847df2110a9b7057d826d43f4,80d9cde847df2110a9b7057d826d4312,e580152447136110a9b7057d826d43d1"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=7d072e5c-fc29-4e49-abd1-188315e298b1</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Create Ping Service REST Message &amp; Credentials">f7c98de847df2110a9b7057d826d43b7</model>
+        <model_id>f7c98de847df2110a9b7057d826d43b7</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_f7c98de847df2110a9b7057d826d43b7</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 20:08:54</sys_created_on>
+        <sys_id>40d9cde847df2110a9b7057d826d4316</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 20:38:14</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=40d9cde847df2110a9b7057d826d4316"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=40d9cde847df2110a9b7057d826d4316"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=4597b85d-8e5c-42a5-9f6e-77bc971280c8,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Create Ping Service REST Message &amp; Credentials">f7c98de847df2110a9b7057d826d43b7</model>
+        <model_id>f7c98de847df2110a9b7057d826d43b7</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_f7c98de847df2110a9b7057d826d43b7</name>
+        <next_element/>
+        <order>5</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 20:08:54</sys_created_on>
+        <sys_id>40d9cde847df2110a9b7057d826d431a</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 20:38:14</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=40d9cde847df2110a9b7057d826d431a"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=40d9cde847df2110a9b7057d826d431a"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=077df151-aba5-4eb7-ae76-52ceea2f007d</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>restmessagesysid</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>restMessageSysId</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Create Ping Service REST Message &amp; Credentials">f7c98de847df2110a9b7057d826d43b7</model>
+        <model_id>f7c98de847df2110a9b7057d826d43b7</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_f7c98de847df2110a9b7057d826d43b7</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 20:08:53</sys_created_on>
+        <sys_id>7fc98de847df2110a9b7057d826d43f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 20:08:53</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=7fc98de847df2110a9b7057d826d43f4"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7fc98de847df2110a9b7057d826d43f4"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=74ab2a79-d9cc-4c36-8509-eb8a6e02db71</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>credsysid</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>credSysId</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Create Ping Service REST Message &amp; Credentials">f7c98de847df2110a9b7057d826d43b7</model>
+        <model_id>f7c98de847df2110a9b7057d826d43b7</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_f7c98de847df2110a9b7057d826d43b7</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 20:08:54</sys_created_on>
+        <sys_id>80d9cde847df2110a9b7057d826d4312</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 20:08:54</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=80d9cde847df2110a9b7057d826d4312"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=80d9cde847df2110a9b7057d826d4312"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=236d092a-3cdc-41a5-9d03-9d6d64ce4cbc</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>error</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>error</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Create Ping Service REST Message &amp; Credentials">f7c98de847df2110a9b7057d826d43b7</model>
+        <model_id>f7c98de847df2110a9b7057d826d43b7</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_f7c98de847df2110a9b7057d826d43b7</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 20:38:14</sys_created_on>
+        <sys_id>e580152447136110a9b7057d826d43d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 20:38:14</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=e580152447136110a9b7057d826d43d1"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e580152447136110a9b7057d826d43d1"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=f7c98de847df2110a9b7057d826d43b7"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=f7c98de847df2110a9b7057d826d43b7^sys_idNOT IN44d9cde847df2110a9b7057d826d434a"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Create Ping Service REST Message &amp; Credentials">f7c98de847df2110a9b7057d826d43b7</action_type_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 20:08:54</sys_created_on>
+        <sys_id>44d9cde847df2110a9b7057d826d434a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 20:08:54</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=44d9cde847df2110a9b7057d826d434a"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_f7c98de847df2110a9b7057d826d43b7^sys_idNOT IN33c98de847df2110a9b7057d826d43c3,b3c98de847df2110a9b7057d826d43bf,bfc98de847df2110a9b7057d826d43c6"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>api_key</element>
+        <help/>
+        <hint/>
+        <label>api_key</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_f7c98de847df2110a9b7057d826d43b7</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 20:08:53</sys_created_on>
+        <sys_id>33c98de847df2110a9b7057d826d43c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Ping Services" source="x_670518_ping_serv">82262b54475b2110a9b7057d826d436f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 20:08:53</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>endpoint</element>
+        <help/>
+        <hint/>
+        <label>endpoint</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_f7c98de847df2110a9b7057d826d43b7</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 20:08:53</sys_created_on>
+        <sys_id>b3c98de847df2110a9b7057d826d43bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Ping Services" source="x_670518_ping_serv">82262b54475b2110a9b7057d826d436f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 20:08:53</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>assignment_group_name</element>
+        <help/>
+        <hint/>
+        <label>assignment_group_name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_f7c98de847df2110a9b7057d826d43b7</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 20:08:53</sys_created_on>
+        <sys_id>bfc98de847df2110a9b7057d826d43c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Ping Services" source="x_670518_ping_serv">82262b54475b2110a9b7057d826d436f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 20:08:53</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_f7c98de847df2110a9b7057d826d43b7"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_f7c98de847df2110a9b7057d826d43b7^sys_idNOT IN40d9cde847df2110a9b7057d826d4344,80d9cde847df2110a9b7057d826d4315,80d9cde847df2110a9b7057d826d4319,c0d9cde847df2110a9b7057d826d4311,f580152447136110a9b7057d826d43d4"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_f7c98de847df2110a9b7057d826d43b7</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 20:08:54</sys_created_on>
+        <sys_id>40d9cde847df2110a9b7057d826d4344</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Ping Services" source="x_670518_ping_serv">82262b54475b2110a9b7057d826d436f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 20:08:54</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>credsysid</element>
+        <help/>
+        <hint/>
+        <label>credSysId</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_f7c98de847df2110a9b7057d826d43b7</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 20:08:54</sys_created_on>
+        <sys_id>80d9cde847df2110a9b7057d826d4315</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Ping Services" source="x_670518_ping_serv">82262b54475b2110a9b7057d826d436f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 20:08:54</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_f7c98de847df2110a9b7057d826d43b7</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 20:08:54</sys_created_on>
+        <sys_id>80d9cde847df2110a9b7057d826d4319</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Ping Services" source="x_670518_ping_serv">82262b54475b2110a9b7057d826d436f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 20:08:54</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>restmessagesysid</element>
+        <help/>
+        <hint/>
+        <label>restMessageSysId</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_f7c98de847df2110a9b7057d826d43b7</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 20:08:54</sys_created_on>
+        <sys_id>c0d9cde847df2110a9b7057d826d4311</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Ping Services" source="x_670518_ping_serv">82262b54475b2110a9b7057d826d436f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 20:08:54</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>error</element>
+        <help/>
+        <hint/>
+        <label>error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_f7c98de847df2110a9b7057d826d43b7</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-04 20:38:14</sys_created_on>
+        <sys_id>f580152447136110a9b7057d826d43d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Ping Services" source="x_670518_ping_serv">82262b54475b2110a9b7057d826d436f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 20:38:14</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_f7c98de847df2110a9b7057d826d43b7"/>
+    <sys_hub_action_type_definition action="UPDATE">
+        <sys_id>c19144e047db2110a9b7057d826d43ee</sys_id>
+        <latest_snapshot>f7c98de847df2110a9b7057d826d43b7</latest_snapshot>
+        <compiler_build>glide-utah-12-21-2022__patch1-03-01-2023_03-13-2023_1716.zip</compiler_build>
+    </sys_hub_action_type_definition>
+</record_update>
