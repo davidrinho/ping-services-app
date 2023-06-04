@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="rest_message" label="REST Message" language="en" table="x_670518_ping_serv_ping_integrations">
+    <sys_documentation element="api_key" label="API Key" language="en" table="x_670518_ping_serv_ping_integrations">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>rest_message</element>
+            <element>api_key</element>
             <help/>
             <hint/>
-            <label>REST Message</label>
+            <label>API Key</label>
             <language>en</language>
             <name>x_670518_ping_serv_ping_integrations</name>
-            <plural>REST Messages</plural>
+            <plural>API Keys</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-06-04 13:03:13</sys_created_on>
+            <sys_created_on>2023-06-04 15:39:55</sys_created_on>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>REST Message</sys_name>
+            <sys_name>API Key</sys_name>
             <sys_package display_value="Ping Services" source="x_670518_ping_serv">82262b54475b2110a9b7057d826d436f</sys_package>
             <sys_policy/>
             <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
-            <sys_update_name>sys_documentation_x_670518_ping_serv_ping_integrations_rest_message_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_670518_ping_serv_ping_integrations_api_key_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-06-04 13:03:13</sys_updated_on>
+            <sys_updated_on>2023-06-04 15:39:55</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

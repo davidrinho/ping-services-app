@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="email_notification" label="Email Notification" language="en" table="x_670518_ping_serv_ping_integrations">
+    <sys_documentation element="rest_endpoint" label="REST Endpoint" language="en" table="x_670518_ping_serv_ping_integrations">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>email_notification</element>
+            <element>rest_endpoint</element>
             <help/>
             <hint/>
-            <label>Email Notification</label>
+            <label>REST Endpoint</label>
             <language>en</language>
             <name>x_670518_ping_serv_ping_integrations</name>
-            <plural>Email Notifications</plural>
+            <plural>REST Endpoints</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-06-04 13:04:13</sys_created_on>
+            <sys_created_on>2023-06-04 15:38:34</sys_created_on>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Email Notification</sys_name>
+            <sys_name>REST Endpoint</sys_name>
             <sys_package display_value="Ping Services" source="x_670518_ping_serv">82262b54475b2110a9b7057d826d436f</sys_package>
             <sys_policy/>
             <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
-            <sys_update_name>sys_documentation_x_670518_ping_serv_ping_integrations_email_notification_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_670518_ping_serv_ping_integrations_rest_endpoint_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-06-04 13:04:13</sys_updated_on>
+            <sys_updated_on>2023-06-04 15:38:34</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
