@@ -25,7 +25,7 @@
         <global>false</global>
         <help_tag>More information</help_tag>
         <help_text/>
-        <hidden>true</hidden>
+        <hidden>false</hidden>
         <include_none>false</include_none>
         <instructions/>
         <layout>normal</layout>
@@ -41,13 +41,13 @@
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>email</name>
-        <order>500</order>
+        <name>change</name>
+        <order>900</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Email</question_text>
+        <question_text>Change</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -75,24 +75,24 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-06-04 13:39:37</sys_created_on>
-        <sys_id>1c5d2b9c475b2110a9b7057d826d4330</sys_id>
+        <sys_created_on>2023-06-04 13:43:11</sys_created_on>
+        <sys_id>6f713790479b2110a9b7057d826d43bd</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name>Email</sys_name>
+        <sys_name>Change</sys_name>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
-        <sys_update_name>item_option_new_1c5d2b9c475b2110a9b7057d826d4330</sys_update_name>
+        <sys_update_name>item_option_new_6f713790479b2110a9b7057d826d43bd</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2023-06-04 13:45:24</sys_updated_on>
         <table/>
         <tooltip/>
-        <type>6</type>
+        <type>7</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
-        <validate_regex display_value="Email">e005e481530020107d13ddeeff7b12e5</validate_regex>
+        <validate_regex/>
         <variable_name/>
         <variable_set/>
         <variable_width/>
@@ -103,22 +103,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=1c5d2b9c475b2110a9b7057d826d4330"/>
-    <fx_price action="delete_multiple" query="id=1c5d2b9c475b2110a9b7057d826d4330"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=6f713790479b2110a9b7057d826d43bd"/>
+    <fx_price action="delete_multiple" query="id=6f713790479b2110a9b7057d826d43bd"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="SEK">SEK</currency>
         <field>price_if_checked</field>
-        <id>1c5d2b9c475b2110a9b7057d826d4330</id>
+        <id>6f713790479b2110a9b7057d826d43bd</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-06-04 13:25:06</sys_created_on>
-        <sys_id>856deb9c475b2110a9b7057d826d43d7</sys_id>
+        <sys_created_on>2023-06-04 13:43:11</sys_created_on>
+        <sys_id>4e8137d0479b2110a9b7057d826d43ac</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-04 13:25:06</sys_updated_on>
+        <sys_updated_on>2023-06-04 13:43:11</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -126,16 +126,16 @@
         <amount>0</amount>
         <currency display_value="SEK">SEK</currency>
         <field>rec_price_if_checked</field>
-        <id>1c5d2b9c475b2110a9b7057d826d4330</id>
+        <id>6f713790479b2110a9b7057d826d43bd</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-06-04 13:25:06</sys_created_on>
-        <sys_id>c56deb9c475b2110a9b7057d826d43d6</sys_id>
+        <sys_created_on>2023-06-04 13:43:11</sys_created_on>
+        <sys_id>8e8137d0479b2110a9b7057d826d43ab</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-04 13:25:06</sys_updated_on>
+        <sys_updated_on>2023-06-04 13:43:11</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
