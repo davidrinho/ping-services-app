@@ -30,14 +30,14 @@
 	
 	function hideEmailOptions() {
 		g_form.setVisible("api_key", true);
-		g_form.setVisible("rest_url", true);
+		g_form.setVisible("rest_endpoint", true);
 		g_form.setVisible("email", false);
 	}
 	
 	function hideRestOptions() {
 		g_form.setVisible("email", true);
 		g_form.setVisible("api_key", false);
-		g_form.setVisible("rest_url", false);
+		g_form.setVisible("rest_endpoint", false);
 	}
    
 }]]></script>
@@ -47,15 +47,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>791773d8479b2110a9b7057d826d4396</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Show corresponding questions</sys_name>
         <sys_overrides/>
         <sys_package display_value="Ping Services" source="x_670518_ping_serv">82262b54475b2110a9b7057d826d436f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
         <sys_update_name>catalog_script_client_791773d8479b2110a9b7057d826d4396</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-06-04 14:11:42</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-04 14:12:03</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>

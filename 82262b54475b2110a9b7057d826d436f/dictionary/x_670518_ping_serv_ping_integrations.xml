@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="c1d7ab18475b2110a9b7057d826d434f" label="Ping Integrations" max_length="40" name="x_670518_ping_serv_ping_integrations" type="collection">
+        <element attributes="encode_utf8=false" display="true" label="Assignment Group" mandatory="true" max_length="32" name="assignment_group" reference="sys_user_group" type="reference"/>
+        <element label="Email Notification" max_length="32" name="email_notification" reference="sysevent_email_action" type="reference"/>
+        <element label="Listen To" max_length="4000" name="listen_to" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="rest" label="Notification Type" mandatory="true" max_length="40" name="notification_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Email" value="email"/>
+                <element inactive_on_update="false" label="REST" value="rest"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Owner" max_length="32" name="owner" reference="sys_user" type="reference"/>
+        <element label="REST Message" max_length="32" name="rest_message" reference="sys_rest_message" type="reference"/>
+        <index name="index">
+            <element name="assignment_group"/>
+        </index>
+        <index name="index2">
+            <element name="email_notification"/>
+        </index>
+        <index name="index3">
+            <element name="owner"/>
+        </index>
+        <index name="index4">
+            <element name="rest_message"/>
+        </index>
+    </element>
+</database>
