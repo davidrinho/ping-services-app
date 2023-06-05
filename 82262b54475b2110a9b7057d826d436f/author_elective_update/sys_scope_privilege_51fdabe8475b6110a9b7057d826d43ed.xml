@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="DELETE">
+        <operation>execute</operation>
+        <source_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-05 08:06:18</sys_created_on>
+        <sys_id>51fdabe8475b6110a9b7057d826d43ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>getDecryptedValue</sys_name>
+        <sys_package display_value="Ping Services" source="x_670518_ping_serv">82262b54475b2110a9b7057d826d436f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
+        <sys_update_name>sys_scope_privilege_51fdabe8475b6110a9b7057d826d43ed</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-05 08:06:18</sys_updated_on>
+        <target_name>getDecryptedValue</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>sys_script_include</target_type>
+    </sys_scope_privilege>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Ping Services">82262b54475b2110a9b7057d826d436f</application>
+        <file_path/>
+        <instance_id>7a6a823adb320c502f68c59705961957</instance_id>
+        <instance_name>dev100108</instance_name>
+        <name>sys_scope_privilege_51fdabe8475b6110a9b7057d826d43ed</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege"><sys_scope_privilege action="INSERT_OR_UPDATE"><operation>execute</operation><source_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</source_scope><status>allowed</status><sys_class_name>sys_scope_privilege</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-06-05 08:06:18</sys_created_on><sys_id>51fdabe8475b6110a9b7057d826d43ed</sys_id><sys_mod_count>0</sys_mod_count><sys_name>getDecryptedValue</sys_name><sys_package display_value="Ping Services" source="x_670518_ping_serv">82262b54475b2110a9b7057d826d436f</sys_package><sys_policy/><sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope><sys_update_name>sys_scope_privilege_51fdabe8475b6110a9b7057d826d43ed</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-06-05 08:06:18</sys_updated_on><target_name>getDecryptedValue</target_name><target_scope display_value="Global">global</target_scope><target_type>sys_script_include</target_type></sys_scope_privilege></record_update>]]></payload>
+        <payload_hash>1177304130</payload_hash>
+        <record_name>getDecryptedValue</record_name>
+        <reverted_from/>
+        <source>0ffd7b9047db2110a9b7057d826d435a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-05 08:06:18</sys_created_on>
+        <sys_id>3c0eebe8475b6110a9b7057d826d4353</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1888a97b5ec0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-05 08:06:18</sys_updated_on>
+        <type>Cross scope privilege</type>
+        <update_guid>700eebe81a5b61104661cd52ea9aa053</update_guid>
+        <update_guid_history>700eebe81a5b61104661cd52ea9aa053:1177304130</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-05 08:08:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_scope_privilege">sys_scope_privilege</sys_db_object>
+        <sys_id>25f45684f63b46fa9f7d7b7c3b17eec4</sys_id>
+        <sys_metadata>51fdabe8475b6110a9b7057d826d43ed</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>getDecryptedValue</sys_name>
+        <sys_package display_value="Ping Services" source="x_670518_ping_serv">82262b54475b2110a9b7057d826d436f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
+        <sys_scope_delete display_value="">1ab711d4ec004d0e9d1e7d487b4c3944</sys_scope_delete>
+        <sys_update_name>sys_scope_privilege_51fdabe8475b6110a9b7057d826d43ed</sys_update_name>
+        <sys_update_version display_value="sys_scope_privilege_51fdabe8475b6110a9b7057d826d43ed">3c0eebe8475b6110a9b7057d826d4353</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-05 08:08:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
