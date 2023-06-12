@@ -26,7 +26,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>88b99760471b6110a9b7057d826d43ee</sys_id>
-        <sys_mod_count>115</sys_mod_count>
+        <sys_mod_count>120</sys_mod_count>
         <sys_name>Ping Services Send REST Update</sys_name>
         <sys_overrides/>
         <sys_package display_value="Ping Services" source="x_670518_ping_serv">82262b54475b2110a9b7057d826d436f</sys_package>
@@ -34,7 +34,7 @@
         <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_88b99760471b6110a9b7057d826d43ee</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-05 11:01:37</sys_updated_on>
+        <sys_updated_on>2023-06-12 13:11:08</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -87,10 +87,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-06-05 07:19:47</sys_created_on>
         <sys_id>6b53e32c471b6110a9b7057d826d433c</sys_id>
-        <sys_mod_count>24</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-05 11:01:31</sys_updated_on>
+        <sys_updated_on>2023-06-12 13:11:02</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=6b53e32c471b6110a9b7057d826d433c"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -115,18 +115,17 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-06-05 07:19:47</sys_created_on>
         <sys_id>eb532fec471b6110a9b7057d826d4395</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-05 11:01:31</sys_updated_on>
+        <sys_updated_on>2023-06-12 13:11:02</sys_updated_on>
         <value>(function execute(inputs, outputs) {
   var returnCode;
-  gs.info("HELLO!!!! - " + inputs.credentialRecord.api_key.getDecryptedValue());
-  gs.info("HELLO!!!! - " + inputs.credentialRecord.api_key);
   var body = sanitizeBodyData();
+  var key = new global.ScopedEncrypter().decrypt(inputs.credentialRecord.api_key);
   try {
     var restMessage = new sn_ws.RESTMessageV2(inputs.restMessageName, "POST");
     restMessage.setRequestHeader("Content-Type", "application/json");
-    restMessage.setRequestHeader("Authorization", "Bearer " + inputs.credentialRecord.api_key);
+    restMessage.setRequestHeader("Authorization", "Bearer " + key);
     restMessage.setRequestBody(JSON.stringify(body));
     var response = restMessage.execute();
     returnCode = response.getStatusCode();
@@ -976,14 +975,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-06-05 07:18:53</sys_created_on>
         <sys_id>52236bec471b6110a9b7057d826d4322</sys_id>
-        <sys_mod_count>99</sys_mod_count>
+        <sys_mod_count>103</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-05 11:01:35</sys_updated_on>
+        <sys_updated_on>2023-06-12 13:11:07</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1243,17 +1242,17 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Ping Services Send REST Update">88b99760471b6110a9b7057d826d43ee</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"e7186b24475b6110a9b7057d826d430c","name":"plan","plan_signature":null}}</plan>
-        <snapshot>38261438471f6110a9b7057d826d43e8</snapshot>
+        <snapshot>eee638c747d32110a9b7057d826d437d</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-06-05 07:40:33</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e7186b24475b6110a9b7057d826d430c</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-05 11:01:37</sys_updated_on>
+        <sys_updated_on>2023-06-12 13:11:09</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -1340,10 +1339,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-06-05 07:40:32</sys_created_on>
         <sys_id>9f182b24475b6110a9b7057d826d438a</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-05 11:01:36</sys_updated_on>
+        <sys_updated_on>2023-06-12 13:11:08</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=9f182b24475b6110a9b7057d826d438a"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1354,18 +1353,17 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-06-05 07:40:32</sys_created_on>
         <sys_id>97182b24475b6110a9b7057d826d439d</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-05 11:01:36</sys_updated_on>
+        <sys_updated_on>2023-06-12 13:11:08</sys_updated_on>
         <value>(function execute(inputs, outputs) {
   var returnCode;
-  gs.info("HELLO!!!! - " + inputs.credentialRecord.api_key.getDecryptedValue());
-  gs.info("HELLO!!!! - " + inputs.credentialRecord.api_key);
   var body = sanitizeBodyData();
+  var key = new global.ScopedEncrypter().decrypt(inputs.credentialRecord.api_key);
   try {
     var restMessage = new sn_ws.RESTMessageV2(inputs.restMessageName, "POST");
     restMessage.setRequestHeader("Content-Type", "application/json");
-    restMessage.setRequestHeader("Authorization", "Bearer " + inputs.credentialRecord.api_key);
+    restMessage.setRequestHeader("Authorization", "Bearer " + key);
     restMessage.setRequestBody(JSON.stringify(body));
     var response = restMessage.execute();
     returnCode = response.getStatusCode();
@@ -2229,14 +2227,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-06-05 07:40:32</sys_created_on>
         <sys_id>5b182b24475b6110a9b7057d826d43a5</sys_id>
-        <sys_mod_count>39</sys_mod_count>
+        <sys_mod_count>41</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-05 11:01:37</sys_updated_on>
+        <sys_updated_on>2023-06-12 13:11:08</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
