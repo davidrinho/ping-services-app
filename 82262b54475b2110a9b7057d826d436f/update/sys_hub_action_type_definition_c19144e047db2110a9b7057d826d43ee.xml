@@ -20,14 +20,14 @@
         <outputs/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
-        <state>published</state>
+        <state>draft</state>
         <sys_class_name>sys_hub_action_type_definition</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-06-04 14:53:18</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c19144e047db2110a9b7057d826d43ee</sys_id>
-        <sys_mod_count>45</sys_mod_count>
+        <sys_mod_count>47</sys_mod_count>
         <sys_name>Create Ping Service REST Message &amp; Credentials</sys_name>
         <sys_overrides/>
         <sys_package display_value="Ping Services" source="x_670518_ping_serv">82262b54475b2110a9b7057d826d436f</sys_package>
@@ -35,7 +35,7 @@
         <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_c19144e047db2110a9b7057d826d43ee</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-04 20:38:14</sys_updated_on>
+        <sys_updated_on>2023-06-12 19:45:09</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -160,10 +160,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-06-04 19:51:44</sys_created_on>
         <sys_id>68e5012847df2110a9b7057d826d43af</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-04 20:32:44</sys_updated_on>
+        <sys_updated_on>2023-06-12 19:45:08</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=68e5012847df2110a9b7057d826d43af"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -188,9 +188,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-06-04 19:51:44</sys_created_on>
         <sys_id>ece5012847df2110a9b7057d826d43bc</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-04 20:32:44</sys_updated_on>
+        <sys_updated_on>2023-06-12 19:45:08</sys_updated_on>
         <value>(function execute(inputs, outputs) {
   
   if (!inputs.api_key) {
@@ -210,6 +210,7 @@
     var cred = new GlideRecord("discovery_credentials");
     cred.initialize();
     cred.name = "Ping Integration - " + inputs.assignment_group_name;
+    cred.type = "api_key";
     cred.api_key = inputs.api_key;
     credSysId = cred.sys_id;
     cred.insert();
@@ -1617,14 +1618,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-06-04 14:56:44</sys_created_on>
         <sys_id>5b5284e447db2110a9b7057d826d4357</sys_id>
-        <sys_mod_count>51</sys_mod_count>
+        <sys_mod_count>53</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-04 20:38:12</sys_updated_on>
+        <sys_updated_on>2023-06-12 19:45:09</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
