@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="DELETE">
+        <operation>create</operation>
+        <source_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-12 19:49:34</sys_created_on>
+        <sys_id>e812d28f471b2110a9b7057d826d43f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sys_rest_message_fn</sys_name>
+        <sys_package display_value="Ping Services" source="x_670518_ping_serv">82262b54475b2110a9b7057d826d436f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
+        <sys_update_name>sys_scope_privilege_e812d28f471b2110a9b7057d826d43f8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-12 19:49:34</sys_updated_on>
+        <target_name>sys_rest_message_fn</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>sys_db_object</target_type>
+    </sys_scope_privilege>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Ping Services">82262b54475b2110a9b7057d826d436f</application>
+        <file_path/>
+        <instance_id>7a6a823adb320c502f68c59705961957</instance_id>
+        <instance_name>dev100108</instance_name>
+        <name>sys_scope_privilege_e812d28f471b2110a9b7057d826d43f8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege"><sys_scope_privilege action="INSERT_OR_UPDATE"><operation>create</operation><source_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</source_scope><status>allowed</status><sys_class_name>sys_scope_privilege</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-06-12 19:49:34</sys_created_on><sys_id>e812d28f471b2110a9b7057d826d43f8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sys_rest_message_fn</sys_name><sys_package display_value="Ping Services" source="x_670518_ping_serv">82262b54475b2110a9b7057d826d436f</sys_package><sys_policy/><sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope><sys_update_name>sys_scope_privilege_e812d28f471b2110a9b7057d826d43f8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-06-12 19:49:34</sys_updated_on><target_name>sys_rest_message_fn</target_name><target_scope display_value="Global">global</target_scope><target_type>sys_db_object</target_type></sys_scope_privilege></record_update>]]></payload>
+        <payload_hash>-2060943349</payload_hash>
+        <record_name>sys_rest_message_fn</record_name>
+        <reverted_from/>
+        <source>0ffd7b9047db2110a9b7057d826d435a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-12 19:49:34</sys_created_on>
+        <sys_id>8312568f471b2110a9b7057d826d4354</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>188b128178f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-12 19:49:34</sys_updated_on>
+        <type>Cross scope privilege</type>
+        <update_guid>c712568f2d1b2110e7665f52f7dc9d53</update_guid>
+        <update_guid_history>c712568f2d1b2110e7665f52f7dc9d53:-2060943349</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-13 07:19:46</sys_created_on>
+        <sys_db_object display_value="" name="sys_scope_privilege">sys_scope_privilege</sys_db_object>
+        <sys_id>29c1299795d042f99b2f9126a0c80f49</sys_id>
+        <sys_metadata>e812d28f471b2110a9b7057d826d43f8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sys_rest_message_fn</sys_name>
+        <sys_package display_value="Ping Services" source="x_670518_ping_serv">82262b54475b2110a9b7057d826d436f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
+        <sys_scope_delete display_value="">1ab711d4ec004d0e9d1e7d487b4c3944</sys_scope_delete>
+        <sys_update_name>sys_scope_privilege_e812d28f471b2110a9b7057d826d43f8</sys_update_name>
+        <sys_update_version display_value="sys_scope_privilege_e812d28f471b2110a9b7057d826d43f8">8312568f471b2110a9b7057d826d4354</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-13 07:19:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

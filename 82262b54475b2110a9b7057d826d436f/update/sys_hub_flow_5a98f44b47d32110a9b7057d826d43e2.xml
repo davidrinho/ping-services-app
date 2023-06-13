@@ -10,13 +10,13 @@
         <copied_from_name>Ping Service Change Update Flow</copied_from_name>
         <description/>
         <internal_name>ping_service_problem_update_flow</internal_name>
-        <label_cache>[{"name":"5da75c6c-e17b-45b7-b022-75d86ac6b606.Record.notification_type","label":"1 - Look Up Record➛Ping Integrations Record➛Notification Type","reference":"","reference_display":"Notification Type","type":"choice","base_type":"choice","parent_table_name":"x_670518_ping_serv_ping_integrations","column_name":"notification_type","choices":[{"used":false,"label":"Email","rawLabel":"Email","selected":false,"missing":false,"image":"","reference":false,"value":"email","parameters":{"name":"x_670518_ping_serv_ping_integrations"}},{"used":false,"label":"REST","rawLabel":"REST","selected":false,"missing":false,"image":"","reference":false,"value":"rest","parameters":{"name":"x_670518_ping_serv_ping_integrations"}}]},{"name":"Created or Updated_1.current.assignment_group","label":"Trigger - Record Created or Updated➛Problem Record➛Assignment group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"problem","column_name":"assignment_group"},{"name":"5da75c6c-e17b-45b7-b022-75d86ac6b606.status","label":"1 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"5da75c6c-e17b-45b7-b022-75d86ac6b606.Record.rest_message.name","label":"1 - Look Up Record➛Ping Integrations Record➛REST Message➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_rest_message","column_name":"name"},{"name":"5da75c6c-e17b-45b7-b022-75d86ac6b606.Record.credentials","label":"1 - Look Up Record➛Ping Integrations Record➛Credentials","reference":"api_key_credentials","reference_display":"API Key Credentials","type":"reference","base_type":"reference","parent_table_name":"x_670518_ping_serv_ping_integrations","column_name":"credentials"},{"name":"Created or Updated_1.changed_fields","label":"Trigger - Record Created or Updated➛Changed Fields","type":"array.object","base_type":"array.object","attributes":{"uiTypeLabel":"Array.Object","co_type_name":"FDCollection","child_label":"FDChangeDetails","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"array.object","child_type":"object","child_name":"FDChangeDetails"}},{"name":"Created or Updated_1.current.number","label":"Trigger - Record Created or Updated➛Problem Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"problem","column_name":"number"}]</label_cache>
+        <label_cache>[{"name":"5da75c6c-e17b-45b7-b022-75d86ac6b606.Record","label":"1 - Look Up Record➛Ping Integrations Record","reference":"x_670518_ping_serv_ping_integrations","reference_display":"Ping Integrations","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5da75c6c-e17b-45b7-b022-75d86ac6b606.Record.notification_type","label":"1 - Look Up Record➛Ping Integrations Record➛Notification Type","reference":"","reference_display":"Notification Type","type":"choice","base_type":"choice","parent_table_name":"x_670518_ping_serv_ping_integrations","column_name":"notification_type","choices":[{"used":false,"label":"Email","rawLabel":"Email","selected":false,"missing":false,"image":"","reference":false,"value":"email","parameters":{"name":"x_670518_ping_serv_ping_integrations"}},{"used":false,"label":"REST","rawLabel":"REST","selected":false,"missing":false,"image":"","reference":false,"value":"rest","parameters":{"name":"x_670518_ping_serv_ping_integrations"}}]},{"name":"Created or Updated_1.current.assignment_group","label":"Trigger - Record Created or Updated➛Problem Record➛Assignment group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"problem","column_name":"assignment_group"},{"name":"5da75c6c-e17b-45b7-b022-75d86ac6b606.status","label":"1 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"5da75c6c-e17b-45b7-b022-75d86ac6b606.Record.rest_message.name","label":"1 - Look Up Record➛Ping Integrations Record➛REST Message➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_rest_message","column_name":"name"},{"name":"5da75c6c-e17b-45b7-b022-75d86ac6b606.Record.credentials","label":"1 - Look Up Record➛Ping Integrations Record➛Credentials","reference":"api_key_credentials","reference_display":"API Key Credentials","type":"reference","base_type":"reference","parent_table_name":"x_670518_ping_serv_ping_integrations","column_name":"credentials"},{"name":"Created or Updated_1.changed_fields","label":"Trigger - Record Created or Updated➛Changed Fields","type":"array.object","base_type":"array.object","attributes":{"uiTypeLabel":"Array.Object","co_type_name":"FDCollection","child_label":"FDChangeDetails","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"array.object","child_type":"object","child_name":"FDChangeDetails"}},{"name":"Created or Updated_1.current.number","label":"Trigger - Record Created or Updated➛Problem Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"problem","column_name":"number"}]</label_cache>
         <master_snapshot>672ab8cb47d32110a9b7057d826d4301</master_snapshot>
         <name>Ping Service Problem Update Flow</name>
         <natlang/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
-        <remote_trigger_id>772ab8cb47d32110a9b7057d826d43b0</remote_trigger_id>
+        <remote_trigger_id>7b3fa8d747936110a9b7057d826d4301</remote_trigger_id>
         <run_as>system</run_as>
         <run_with_roles/>
         <sc_callable>false</sc_callable>
@@ -29,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5a98f44b47d32110a9b7057d826d43e2</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Ping Service Problem Update Flow</sys_name>
         <sys_overrides/>
         <sys_package display_value="Ping Services" source="x_670518_ping_serv">82262b54475b2110a9b7057d826d436f</sys_package>
@@ -37,7 +37,7 @@
         <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
         <sys_update_name>sys_hub_flow_5a98f44b47d32110a9b7057d826d43e2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-12 13:25:26</sys_updated_on>
+        <sys_updated_on>2023-06-13 07:16:07</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=5a98f44b47d32110a9b7057d826d43e2"/>
@@ -57,15 +57,15 @@
         <run_when_user_setting>any</run_when_user_setting>
         <sys_class_name>sys_flow_record_trigger</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-06-12 13:25:25</sys_created_on>
+        <sys_created_on>2023-06-13 07:16:07</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>772ab8cb47d32110a9b7057d826d43b0</sys_id>
+        <sys_id>7b3fa8d747936110a9b7057d826d4301</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_overrides/>
         <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-12 13:25:25</sys_updated_on>
+        <sys_updated_on>2023-06-13 07:16:07</sys_updated_on>
         <table>problem</table>
     </sys_flow_record_trigger>
     <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
@@ -74,14 +74,14 @@
         <identifier>5a98f44b47d32110a9b7057d826d43e2</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-06-12 13:25:25</sys_created_on>
-        <sys_id>fb2ab8cb47d32110a9b7057d826d43b0</sys_id>
+        <sys_created_on>2023-06-13 07:16:07</sys_created_on>
+        <sys_id>373fa8d747936110a9b7057d826d4302</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-12 13:25:25</sys_updated_on>
-        <trigger display_value="">772ab8cb47d32110a9b7057d826d43b0</trigger>
+        <sys_updated_on>2023-06-13 07:16:07</sys_updated_on>
+        <trigger display_value="">7b3fa8d747936110a9b7057d826d4301</trigger>
     </sys_trigger_runner_mapping>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=5a98f44b47d32110a9b7057d826d43e2^sys_idNOT INfb2ab8cb47d32110a9b7057d826d43b0"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=5a98f44b47d32110a9b7057d826d43e2^sys_idNOT IN373fa8d747936110a9b7057d826d4302"/>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=5a98f44b47d32110a9b7057d826d43e2^sys_idNOT IN1298384b47d32110a9b7057d826d4339"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
@@ -92,10 +92,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-06-12 13:18:30</sys_created_on>
         <sys_id>1298384b47d32110a9b7057d826d4339</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-12 13:25:25</sys_updated_on>
+        <sys_updated_on>2023-06-13 07:16:07</sys_updated_on>
         <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -223,14 +223,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-06-12 13:18:29</sys_created_on>
         <sys_id>1698f44b47d32110a9b7057d826d43ed</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-12 13:25:25</sys_updated_on>
+        <sys_updated_on>2023-06-13 07:16:07</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -306,14 +306,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-06-12 13:18:29</sys_created_on>
         <sys_id>5a98f44b47d32110a9b7057d826d43e9</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-12 13:25:25</sys_updated_on>
+        <sys_updated_on>2023-06-13 07:16:07</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -426,10 +426,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-06-12 13:18:29</sys_created_on>
         <sys_id>1a98384b47d32110a9b7057d826d432e</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-12 13:25:25</sys_updated_on>
+        <sys_updated_on>2023-06-13 07:16:07</sys_updated_on>
         <ui_id>5da75c6c-e17b-45b7-b022-75d86ac6b606</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=1a98384b47d32110a9b7057d826d432e"/>
@@ -488,10 +488,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-06-12 13:18:30</sys_created_on>
         <sys_id>5298384b47d32110a9b7057d826d4337</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-12 13:25:26</sys_updated_on>
+        <sys_updated_on>2023-06-13 07:16:07</sys_updated_on>
         <ui_id>d4798619-7286-4bd0-a285-0421515c68ea</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=5298384b47d32110a9b7057d826d4337"/>
@@ -507,6 +507,18 @@
         <sys_updated_on>2023-06-12 13:18:30</sys_updated_on>
         <table>var__m_sys_hub_action_input_d3182b24475b6110a9b7057d826d436d</table>
         <value>{{5da75c6c-e17b-45b7-b022-75d86ac6b606.Record.credentials}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ping_integration_record</field>
+        <id>5298384b47d32110a9b7057d826d4337</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-13 07:15:58</sys_created_on>
+        <sys_id>313fe4d747936110a9b7057d826d4377</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-13 07:15:58</sys_updated_on>
+        <table>var__m_sys_hub_action_input_d3182b24475b6110a9b7057d826d436d</table>
+        <value>{{5da75c6c-e17b-45b7-b022-75d86ac6b606.Record}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>recordnumber</field>
@@ -570,10 +582,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-06-12 13:18:29</sys_created_on>
         <sys_id>1298384b47d32110a9b7057d826d4306</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-12 13:25:26</sys_updated_on>
+        <sys_updated_on>2023-06-13 07:16:07</sys_updated_on>
         <ui_id>4ab30751-11c5-438b-acbe-0d325d15f769</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -641,10 +653,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-06-12 13:18:29</sys_created_on>
         <sys_id>1a98384b47d32110a9b7057d826d4322</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-12 13:25:26</sys_updated_on>
+        <sys_updated_on>2023-06-13 07:16:07</sys_updated_on>
         <ui_id>81d29bf0-0efb-4775-b004-43106618b5d6</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -674,10 +686,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-06-12 13:18:29</sys_created_on>
         <sys_id>9a98384b47d32110a9b7057d826d4302</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-12 13:25:26</sys_updated_on>
+        <sys_updated_on>2023-06-13 07:16:07</sys_updated_on>
         <ui_id>20792ebd-1161-41ce-929d-09cb4ac1da99</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -745,10 +757,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-06-12 13:18:29</sys_created_on>
         <sys_id>d298384b47d32110a9b7057d826d4325</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-12 13:25:26</sys_updated_on>
+        <sys_updated_on>2023-06-13 07:16:07</sys_updated_on>
         <ui_id>6e5e4c5c-cbc7-453b-8df0-0b018497c0c3</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -842,12 +854,12 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>372ab8cb47d32110a9b7057d826d43b1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-12 13:25:25</sys_updated_on>
-        <trigger display_value="">772ab8cb47d32110a9b7057d826d43b0</trigger>
+        <sys_updated_on>2023-06-13 07:16:07</sys_updated_on>
+        <trigger display_value="">7b3fa8d747936110a9b7057d826d4301</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=5a98f44b47d32110a9b7057d826d43e2"/>
     <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
@@ -861,7 +873,7 @@
         <copied_from_name/>
         <description/>
         <internal_name>ping_service_problem_update_flow</internal_name>
-        <label_cache>[{"name":"5da75c6c-e17b-45b7-b022-75d86ac6b606.Record.notification_type","label":"1 - Look Up Record➛Ping Integrations Record➛Notification Type","reference":"","reference_display":"Notification Type","type":"choice","base_type":"choice","parent_table_name":"x_670518_ping_serv_ping_integrations","column_name":"notification_type","choices":[{"used":false,"label":"Email","rawLabel":"Email","selected":false,"missing":false,"image":"","reference":false,"value":"email","parameters":{"name":"x_670518_ping_serv_ping_integrations"}},{"used":false,"label":"REST","rawLabel":"REST","selected":false,"missing":false,"image":"","reference":false,"value":"rest","parameters":{"name":"x_670518_ping_serv_ping_integrations"}}]},{"name":"Created or Updated_1.current.assignment_group","label":"Trigger - Record Created or Updated➛Problem Record➛Assignment group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"problem","column_name":"assignment_group"},{"name":"5da75c6c-e17b-45b7-b022-75d86ac6b606.status","label":"1 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"5da75c6c-e17b-45b7-b022-75d86ac6b606.Record.rest_message.name","label":"1 - Look Up Record➛Ping Integrations Record➛REST Message➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_rest_message","column_name":"name"},{"name":"5da75c6c-e17b-45b7-b022-75d86ac6b606.Record.credentials","label":"1 - Look Up Record➛Ping Integrations Record➛Credentials","reference":"api_key_credentials","reference_display":"API Key Credentials","type":"reference","base_type":"reference","parent_table_name":"x_670518_ping_serv_ping_integrations","column_name":"credentials"},{"name":"Created or Updated_1.changed_fields","label":"Trigger - Record Created or Updated➛Changed Fields","type":"array.object","base_type":"array.object","attributes":{"uiTypeLabel":"Array.Object","co_type_name":"FDCollection","child_label":"FDChangeDetails","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"array.object","child_type":"object","child_name":"FDChangeDetails"}},{"name":"Created or Updated_1.current.number","label":"Trigger - Record Created or Updated➛Problem Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"problem","column_name":"number"}]</label_cache>
+        <label_cache>[{"name":"5da75c6c-e17b-45b7-b022-75d86ac6b606.Record","label":"1 - Look Up Record➛Ping Integrations Record","reference":"x_670518_ping_serv_ping_integrations","reference_display":"Ping Integrations","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5da75c6c-e17b-45b7-b022-75d86ac6b606.Record.notification_type","label":"1 - Look Up Record➛Ping Integrations Record➛Notification Type","reference":"","reference_display":"Notification Type","type":"choice","base_type":"choice","parent_table_name":"x_670518_ping_serv_ping_integrations","column_name":"notification_type","choices":[{"used":false,"label":"Email","rawLabel":"Email","selected":false,"missing":false,"image":"","reference":false,"value":"email","parameters":{"name":"x_670518_ping_serv_ping_integrations"}},{"used":false,"label":"REST","rawLabel":"REST","selected":false,"missing":false,"image":"","reference":false,"value":"rest","parameters":{"name":"x_670518_ping_serv_ping_integrations"}}]},{"name":"Created or Updated_1.current.assignment_group","label":"Trigger - Record Created or Updated➛Problem Record➛Assignment group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"problem","column_name":"assignment_group"},{"name":"5da75c6c-e17b-45b7-b022-75d86ac6b606.status","label":"1 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"5da75c6c-e17b-45b7-b022-75d86ac6b606.Record.rest_message.name","label":"1 - Look Up Record➛Ping Integrations Record➛REST Message➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_rest_message","column_name":"name"},{"name":"5da75c6c-e17b-45b7-b022-75d86ac6b606.Record.credentials","label":"1 - Look Up Record➛Ping Integrations Record➛Credentials","reference":"api_key_credentials","reference_display":"API Key Credentials","type":"reference","base_type":"reference","parent_table_name":"x_670518_ping_serv_ping_integrations","column_name":"credentials"},{"name":"Created or Updated_1.changed_fields","label":"Trigger - Record Created or Updated➛Changed Fields","type":"array.object","base_type":"array.object","attributes":{"uiTypeLabel":"Array.Object","co_type_name":"FDCollection","child_label":"FDChangeDetails","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"array.object","child_type":"object","child_name":"FDChangeDetails"}},{"name":"Created or Updated_1.current.number","label":"Trigger - Record Created or Updated➛Problem Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"problem","column_name":"number"}]</label_cache>
         <master>true</master>
         <name>Ping Service Problem Update Flow</name>
         <natlang/>
@@ -878,7 +890,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>672ab8cb47d32110a9b7057d826d4301</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -886,7 +898,7 @@
         <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-12 13:25:24</sys_updated_on>
+        <sys_updated_on>2023-06-13 07:16:06</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=672ab8cb47d32110a9b7057d826d4301"/>
@@ -901,10 +913,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-06-12 13:25:24</sys_created_on>
         <sys_id>272ab8cb47d32110a9b7057d826d4359</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-12 13:25:25</sys_updated_on>
+        <sys_updated_on>2023-06-13 07:16:07</sys_updated_on>
         <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -973,7 +985,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1032,14 +1044,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-06-12 13:25:24</sys_created_on>
         <sys_id>232ab8cb47d32110a9b7057d826d4315</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-12 13:25:24</sys_updated_on>
+        <sys_updated_on>2023-06-13 07:16:05</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1056,7 +1068,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1115,14 +1127,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-06-12 13:25:24</sys_created_on>
         <sys_id>e72ab8cb47d32110a9b7057d826d431d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-12 13:25:24</sys_updated_on>
+        <sys_updated_on>2023-06-13 07:16:05</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1139,7 +1151,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1198,14 +1210,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-06-12 13:25:24</sys_created_on>
         <sys_id>ef2ab8cb47d32110a9b7057d826d4302</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-12 13:25:24</sys_updated_on>
+        <sys_updated_on>2023-06-13 07:16:05</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1235,10 +1247,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-06-12 13:25:24</sys_created_on>
         <sys_id>672ab8cb47d32110a9b7057d826d434c</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-12 13:25:24</sys_updated_on>
+        <sys_updated_on>2023-06-13 07:16:06</sys_updated_on>
         <ui_id>5da75c6c-e17b-45b7-b022-75d86ac6b606</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=672ab8cb47d32110a9b7057d826d434c"/>
@@ -1297,10 +1309,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-06-12 13:25:24</sys_created_on>
         <sys_id>672ab8cb47d32110a9b7057d826d4357</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-12 13:25:24</sys_updated_on>
+        <sys_updated_on>2023-06-13 07:16:06</sys_updated_on>
         <ui_id>d4798619-7286-4bd0-a285-0421515c68ea</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=672ab8cb47d32110a9b7057d826d4357"/>
@@ -1316,6 +1328,18 @@
         <sys_updated_on>2023-06-12 13:25:24</sys_updated_on>
         <table>var__m_sys_hub_action_input_d3182b24475b6110a9b7057d826d436d</table>
         <value>{{5da75c6c-e17b-45b7-b022-75d86ac6b606.Record.credentials}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ping_integration_record</field>
+        <id>672ab8cb47d32110a9b7057d826d4357</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-13 07:16:05</sys_created_on>
+        <sys_id>e33f68d747936110a9b7057d826d434f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-13 07:16:05</sys_updated_on>
+        <table>var__m_sys_hub_action_input_d3182b24475b6110a9b7057d826d436d</table>
+        <value>{{5da75c6c-e17b-45b7-b022-75d86ac6b606.Record}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>recordnumber</field>
@@ -1378,10 +1402,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-06-12 13:25:24</sys_created_on>
         <sys_id>232ab8cb47d32110a9b7057d826d4334</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-12 13:25:24</sys_updated_on>
+        <sys_updated_on>2023-06-13 07:16:06</sys_updated_on>
         <ui_id>6e5e4c5c-cbc7-453b-8df0-0b018497c0c3</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1411,10 +1435,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-06-12 13:25:24</sys_created_on>
         <sys_id>272ab8cb47d32110a9b7057d826d4329</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-12 13:25:24</sys_updated_on>
+        <sys_updated_on>2023-06-13 07:16:06</sys_updated_on>
         <ui_id>20792ebd-1161-41ce-929d-09cb4ac1da99</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1483,10 +1507,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-06-12 13:25:24</sys_created_on>
         <sys_id>2b2ab8cb47d32110a9b7057d826d432d</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-12 13:25:24</sys_updated_on>
+        <sys_updated_on>2023-06-13 07:16:06</sys_updated_on>
         <ui_id>4ab30751-11c5-438b-acbe-0d325d15f769</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1554,10 +1578,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-06-12 13:25:24</sys_created_on>
         <sys_id>a32ab8cb47d32110a9b7057d826d4331</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-12 13:25:24</sys_updated_on>
+        <sys_updated_on>2023-06-13 07:16:06</sys_updated_on>
         <ui_id>81d29bf0-0efb-4775-b004-43106618b5d6</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
