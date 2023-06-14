@@ -4,7 +4,7 @@
         <application display_value="Ping Services">0fe72b14475b2110a9b7057d826d4378</application>
         <assessment/>
         <device_type/>
-        <filter table="syslog">messageLIKEPing Integration^EQ<item endquery="false" field="message" goto="false" newquery="false" operator="LIKE" or="false" value="Ping Integration"/>
+        <filter table="syslog">messageLIKEPing Services^EQ<item endquery="false" field="message" goto="false" newquery="false" operator="LIKE" or="false" value="Ping Services"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter>
         <hint/>
@@ -26,7 +26,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>375b605347936110a9b7057d826d439b</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>All</sys_name>
         <sys_overrides/>
         <sys_package display_value="Ping Services" source="x_670518_ping_serv">82262b54475b2110a9b7057d826d436f</sys_package>
@@ -34,7 +34,7 @@
         <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
         <sys_update_name>sys_app_module_375b605347936110a9b7057d826d439b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-13 07:04:41</sys_updated_on>
+        <sys_updated_on>2023-06-14 09:37:23</sys_updated_on>
         <timeline_page/>
         <title>All</title>
         <uncancelable>false</uncancelable>

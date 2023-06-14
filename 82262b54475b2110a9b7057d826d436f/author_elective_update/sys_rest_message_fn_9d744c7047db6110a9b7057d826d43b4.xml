@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="DELETE">
+        <authentication_type>inherit_from_parent</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <content/>
+        <function_name>Default GET</function_name>
+        <http_method>get</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>Dummy [ Default GET ]</qualified_name>
+        <rest_endpoint>HTTP://80.216.51.58:5036/api</rest_endpoint>
+        <rest_message display_value="Dummy">f164807047db6110a9b7057d826d4302</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-05 09:44:22</sys_created_on>
+        <sys_id>9d744c7047db6110a9b7057d826d43b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Default GET</sys_name>
+        <sys_package display_value="Ping Services" source="x_670518_ping_serv">82262b54475b2110a9b7057d826d436f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
+        <sys_update_name>sys_rest_message_fn_9d744c7047db6110a9b7057d826d43b4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-05 09:44:22</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Ping Services">82262b54475b2110a9b7057d826d436f</application>
+        <file_path/>
+        <instance_id>7a6a823adb320c502f68c59705961957</instance_id>
+        <instance_name>dev100108</instance_name>
+        <name>sys_rest_message_fn_9d744c7047db6110a9b7057d826d43b4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn"><sys_rest_message_fn action="INSERT_OR_UPDATE"><authentication_type>inherit_from_parent</authentication_type><basic_auth_password/><basic_auth_profile/><basic_auth_user/><content/><function_name>Default GET</function_name><http_method>get</http_method><lock>false</lock><oauth2_profile/><protocol_name/><qualified_name>Dummy [ Default GET ]</qualified_name><rest_endpoint>HTTP://80.216.51.58:5036/api</rest_endpoint><rest_message display_value="Dummy">f164807047db6110a9b7057d826d4302</rest_message><sys_class_name>sys_rest_message_fn</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-06-05 09:44:22</sys_created_on><sys_id>9d744c7047db6110a9b7057d826d43b4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Default GET</sys_name><sys_package display_value="Ping Services" source="x_670518_ping_serv">82262b54475b2110a9b7057d826d436f</sys_package><sys_policy/><sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope><sys_update_name>sys_rest_message_fn_9d744c7047db6110a9b7057d826d43b4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-06-05 09:44:22</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mid_server/><use_mutual_auth>false</use_mutual_auth></sys_rest_message_fn></record_update>]]></payload>
+        <payload_hash>1909706099</payload_hash>
+        <record_name>Default GET</record_name>
+        <reverted_from/>
+        <source>0ffd7b9047db2110a9b7057d826d435a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-05 09:44:22</sys_created_on>
+        <sys_id>1d744c7047db6110a9b7057d826d43b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1888af17edf0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-05 09:44:22</sys_updated_on>
+        <type>HTTP Method</type>
+        <update_guid>51744c70f7db61106496fc7fc8f14fb6</update_guid>
+        <update_guid_history>51744c70f7db61106496fc7fc8f14fb6:1909706099</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-14 10:04:26</sys_created_on>
+        <sys_db_object display_value="" name="sys_rest_message_fn">sys_rest_message_fn</sys_db_object>
+        <sys_id>2116b01c5f1a46988c6a7f67ce3d3840</sys_id>
+        <sys_metadata>9d744c7047db6110a9b7057d826d43b4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Default GET</sys_name>
+        <sys_package display_value="Ping Services" source="x_670518_ping_serv">82262b54475b2110a9b7057d826d436f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
+        <sys_scope_delete display_value="">1ab711d4ec004d0e9d1e7d487b4c3944</sys_scope_delete>
+        <sys_update_name>sys_rest_message_fn_9d744c7047db6110a9b7057d826d43b4</sys_update_name>
+        <sys_update_version display_value="sys_rest_message_fn_9d744c7047db6110a9b7057d826d43b4">1d744c7047db6110a9b7057d826d43b6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-14 10:04:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
