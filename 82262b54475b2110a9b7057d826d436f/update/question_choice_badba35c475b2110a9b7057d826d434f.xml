@@ -6,16 +6,16 @@
         <question display_value="Select type of notification">855b2b1c475b2110a9b7057d826d43c5</question>
         <sys_class_name>question_choice</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-06-13 07:12:03</sys_created_on>
+        <sys_created_on>2023-06-30 06:42:36</sys_created_on>
         <sys_id>badba35c475b2110a9b7057d826d434f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Email</sys_name>
-        <sys_package/>
+        <sys_package display_value="Ping Services" source="x_670518_ping_serv">82262b54475b2110a9b7057d826d436f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
         <sys_update_name>question_choice_badba35c475b2110a9b7057d826d434f</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-06-13 07:13:12</sys_updated_on>
+        <sys_updated_on>2023-06-30 06:43:42</sys_updated_on>
         <text>Email</text>
         <value>email</value>
     </question_choice>

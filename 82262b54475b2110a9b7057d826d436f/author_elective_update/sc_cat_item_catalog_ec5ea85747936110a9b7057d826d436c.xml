@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Enable PING functionality for Assignment Group">dcfaa31c475b2110a9b7057d826d43bc</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-13 07:12:04</sys_created_on>
+        <sys_id>ec5ea85747936110a9b7057d826d436c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Service Catalog.Enable PING functionality for Assignment Group</sys_name>
+        <sys_package display_value="Ping Services" source="x_670518_ping_serv">82262b54475b2110a9b7057d826d436f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_ec5ea85747936110a9b7057d826d436c</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-06-13 07:13:12</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Ping Services">82262b54475b2110a9b7057d826d436f</application>
+        <file_path/>
+        <instance_id>764306f3db4369184162684e13961941</instance_id>
+        <instance_name>dev175503</instance_name>
+        <name>sc_cat_item_catalog_ec5ea85747936110a9b7057d826d436c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="DELETE"><sc_cat_item display_value="Enable PING functionality for Assignment Group">dcfaa31c475b2110a9b7057d826d43bc</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-06-13 07:12:04</sys_created_on><sys_id>ec5ea85747936110a9b7057d826d436c</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Service Catalog.Enable PING functionality for Assignment Group</sys_name><sys_package display_value="Ping Services" source="x_670518_ping_serv">82262b54475b2110a9b7057d826d436f</sys_package><sys_policy/><sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope><sys_update_name>sc_cat_item_catalog_ec5ea85747936110a9b7057d826d436c</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2023-06-13 07:13:12</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>1756837927</payload_hash>
+        <record_name>Service Catalog.Enable PING functionality for Assignment Group</record_name>
+        <reverted_from/>
+        <source>9eda88f4473321109f3592c7536d439f</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-06-30 06:43:41</sys_created_on>
+        <sys_id>2ada0cf4473321109f3592c7536d4301</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1890b0b10440000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-06-30 06:43:41</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>eada0cf4a433211001466c21cf6ba100</update_guid>
+        <update_guid_history>eada0cf4a433211001466c21cf6ba100:1756837927,2de9447400332110c221b567bbfdd477:-277871961</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.Enable PING functionality for Assignment Group">e2da0cf4473321109f3592c7536d4309</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-06-30 06:43:41</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>0c61d7858c0d4ac4b30e9fea00288f09</sys_id>
+        <sys_metadata>ec5ea85747936110a9b7057d826d436c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Enable PING functionality for Assignment Group</sys_name>
+        <sys_package display_value="Ping Services" source="x_670518_ping_serv">82262b54475b2110a9b7057d826d436f</sys_package>
+        <sys_parent display_value="Enable PING functionality for Assignment Group">dcfaa31c475b2110a9b7057d826d43bc</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Ping Services">82262b54475b2110a9b7057d826d436f</sys_scope>
+        <sys_scope_delete display_value="">1ab711d4ec004d0e9d1e7d487b4c3944</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_ec5ea85747936110a9b7057d826d436c</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_ec5ea85747936110a9b7057d826d436c">2ada0cf4473321109f3592c7536d4301</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-06-30 06:43:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
